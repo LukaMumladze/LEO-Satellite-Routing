@@ -1,0 +1,4 @@
+TimeInterval,StartTime,EndTime,PacketsDelivered,Throughput
+1440,14400,14410,189,18.9
+1441,14410,14420,10,1
+1442,14420,14430,1,0.1

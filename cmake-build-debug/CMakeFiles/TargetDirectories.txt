@@ -1,0 +1,3 @@
+/home/luka_mumladze/CLionProjects/LEO/cmake-build-debug/CMakeFiles/LEO2_0.dir
+/home/luka_mumladze/CLionProjects/LEO/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/luka_mumladze/CLionProjects/LEO/cmake-build-debug/CMakeFiles/rebuild_cache.dir

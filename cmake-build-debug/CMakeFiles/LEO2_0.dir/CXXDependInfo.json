@@ -1,0 +1,102 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/luka_mumladze/CLionProjects/LEO/cmake-build-debug",
+	"dir-cur-src" : "/home/luka_mumladze/CLionProjects/LEO",
+	"dir-top-bld" : "/home/luka_mumladze/CLionProjects/LEO/cmake-build-debug",
+	"dir-top-src" : "/home/luka_mumladze/CLionProjects/LEO",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/luka_mumladze/CLionProjects/LEO/cmake-build-debug/CMakeFiles/LEO2_0.dir",
+	"sources" : 
+	{
+		"CMakeFiles/LEO2_0.dir/main.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/luka_mumladze/CLionProjects/LEO/main.cpp"
+		},
+		"CMakeFiles/LEO2_0.dir/src/DirectRouting.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/luka_mumladze/CLionProjects/LEO/src/DirectRouting.cpp"
+		},
+		"CMakeFiles/LEO2_0.dir/src/FloodingRouting.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/luka_mumladze/CLionProjects/LEO/src/FloodingRouting.cpp"
+		},
+		"CMakeFiles/LEO2_0.dir/src/FlowAnalyzer.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/luka_mumladze/CLionProjects/LEO/src/FlowAnalyzer.cpp"
+		},
+		"CMakeFiles/LEO2_0.dir/src/GeographicalRouting.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/luka_mumladze/CLionProjects/LEO/src/GeographicalRouting.cpp"
+		},
+		"CMakeFiles/LEO2_0.dir/src/GroundStation.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/luka_mumladze/CLionProjects/LEO/src/GroundStation.cpp"
+		},
+		"CMakeFiles/LEO2_0.dir/src/HierarchicalRouting.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/luka_mumladze/CLionProjects/LEO/src/HierarchicalRouting.cpp"
+		},
+		"CMakeFiles/LEO2_0.dir/src/MultiHopRouting.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/luka_mumladze/CLionProjects/LEO/src/MultiHopRouting.cpp"
+		},
+		"CMakeFiles/LEO2_0.dir/src/Node.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/luka_mumladze/CLionProjects/LEO/src/Node.cpp"
+		},
+		"CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/luka_mumladze/CLionProjects/LEO/src/OrbitParams.cpp"
+		},
+		"CMakeFiles/LEO2_0.dir/src/Packet.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/luka_mumladze/CLionProjects/LEO/src/Packet.cpp"
+		},
+		"CMakeFiles/LEO2_0.dir/src/Position.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/luka_mumladze/CLionProjects/LEO/src/Position.cpp"
+		},
+		"CMakeFiles/LEO2_0.dir/src/RoutingAlgorithm.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/luka_mumladze/CLionProjects/LEO/src/RoutingAlgorithm.cpp"
+		},
+		"CMakeFiles/LEO2_0.dir/src/Satellite.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/luka_mumladze/CLionProjects/LEO/src/Satellite.cpp"
+		},
+		"CMakeFiles/LEO2_0.dir/src/SimulationEngine.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/luka_mumladze/CLionProjects/LEO/src/SimulationEngine.cpp"
+		},
+		"CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/luka_mumladze/CLionProjects/LEO/src/StoreAndForwardRouting.cpp"
+		}
+	}
+}

@@ -1,0 +1,3 @@
+TimeInterval,StartTime,EndTime,PacketsDelivered,Throughput
+5760,57600,57610,188,18.8
+5761,57610,57620,12,1.2

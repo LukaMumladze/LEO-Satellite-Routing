@@ -1,0 +1,33 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/LEO2_0.dir/main.cpp.o: dyndep
+
+build CMakeFiles/LEO2_0.dir/src/Position.cpp.o: dyndep
+
+build CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o: dyndep
+
+build CMakeFiles/LEO2_0.dir/src/Node.cpp.o: dyndep
+
+build CMakeFiles/LEO2_0.dir/src/Satellite.cpp.o: dyndep
+
+build CMakeFiles/LEO2_0.dir/src/GroundStation.cpp.o: dyndep
+
+build CMakeFiles/LEO2_0.dir/src/DirectRouting.cpp.o: dyndep
+
+build CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o: dyndep
+
+build CMakeFiles/LEO2_0.dir/src/GeographicalRouting.cpp.o: dyndep
+
+build CMakeFiles/LEO2_0.dir/src/FloodingRouting.cpp.o: dyndep
+
+build CMakeFiles/LEO2_0.dir/src/HierarchicalRouting.cpp.o: dyndep
+
+build CMakeFiles/LEO2_0.dir/src/MultiHopRouting.cpp.o: dyndep
+
+build CMakeFiles/LEO2_0.dir/src/FlowAnalyzer.cpp.o: dyndep
+
+build CMakeFiles/LEO2_0.dir/src/SimulationEngine.cpp.o: dyndep
+
+build CMakeFiles/LEO2_0.dir/src/Packet.cpp.o: dyndep
+
+build CMakeFiles/LEO2_0.dir/src/RoutingAlgorithm.cpp.o: dyndep
+
