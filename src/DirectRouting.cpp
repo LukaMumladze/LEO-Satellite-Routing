@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <iostream>
 
 #include "../include/direct_routing.h"
@@ -22,6 +23,19 @@ std::shared_ptr<Node> DirectRouting::findNextHop(
     if (currentNode->canCommunicateWith(destinationNode)) {
         return destinationNode;
     }
+    std::vector<double> vec;
+    std::vector<std::shared_ptr<Node>>node_vec;
+    for (const auto& node : allNodes) {
+        if (node->getId() == currentNode->getId()) {
+            continue;
+        }
+        else {
+            if (currentNode->canCommunicateWith(node) && node->canCommunicateWith(destinationNode)) {
+                return node;
+            }
+        }
+    }
+
 
     return nullptr;
 }

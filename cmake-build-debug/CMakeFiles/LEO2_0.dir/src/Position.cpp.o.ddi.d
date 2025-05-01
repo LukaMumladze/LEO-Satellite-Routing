@@ -1,7 +1,7 @@
 CMakeFiles/LEO2_0.dir/src/Position.cpp.o.ddi: \
- /home/luka_mumladze/CLionProjects/LEO/src/Position.cpp \
+ /home/luka_mumladze/Thesis\ (3)/LEO/src/Position.cpp \
  /usr/include/stdc-predef.h \
- /home/luka_mumladze/CLionProjects/LEO/src/../include/position.h \
+ /home/luka_mumladze/Thesis\ (3)/LEO/src/../include/position.h \
  /usr/include/c++/14.2.0/cmath \
  /usr/include/c++/14.2.0/bits/requires_hosted.h \
  /usr/include/c++/14.2.0/x86_64-unknown-linux-gnu/bits/c++config.h \

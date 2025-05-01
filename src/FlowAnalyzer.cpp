@@ -36,7 +36,6 @@ void FlowAnalyzer::generateDelayReport(const std::string& filename) const {
     }
 
     file << "PacketID,SourceID,DestinationID,CreationTime,DeliveryTime,Delay\n";
-
     for (const auto& record : deliveries) {
         double delay = record.deliveryTime - record.creationTime;
         file << record.packetId << ","
@@ -118,7 +117,7 @@ void FlowAnalyzer::generateDeliveryRatioReport(const std::string& filename) cons
     }
 
     // Group by source-destination pairs
-    std::map<std::pair<int, int>, std::pair<int, int>> pairStats;  // (source, dest) -> (delivered, total)
+    std::map<std::pair<int, int>, std::pair<int, int>> pairStats;
 
     for (const auto& record : deliveries) {
         std::pair<int, int> pair(record.sourceId, record.destinationId);

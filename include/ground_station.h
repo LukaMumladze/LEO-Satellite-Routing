@@ -9,9 +9,9 @@ public:
     [[nodiscard]] bool canCommunicateWith(const std::shared_ptr<Node>& other) const override;
 
     void update(double timeStep) override;
-    [[nodiscard]] double debugElevation(const Position& satPosition) const;
     [[nodiscard]] double getElevationMask() const;
     [[nodiscard]] double getElapsedTime() const override;
+    [[nodiscard]]  double debugElevation(const Position& satPosition) const;
 
 private:
     double elevationMask_;

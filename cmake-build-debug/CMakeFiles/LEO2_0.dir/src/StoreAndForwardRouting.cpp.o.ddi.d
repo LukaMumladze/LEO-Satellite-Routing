@@ -1,5 +1,5 @@
 CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o.ddi: \
- /home/luka_mumladze/CLionProjects/LEO/src/StoreAndForwardRouting.cpp \
+ /home/luka_mumladze/Thesis\ (3)/LEO/src/StoreAndForwardRouting.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/14.2.0/algorithm \
  /usr/include/c++/14.2.0/bits/stl_algobase.h \
  /usr/include/c++/14.2.0/x86_64-unknown-linux-gnu/bits/c++config.h \
@@ -86,10 +86,10 @@ CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o.ddi: \
  /usr/include/c++/14.2.0/bits/ranges_util.h \
  /usr/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
  /usr/include/c++/14.2.0/pstl/execution_defs.h \
- /home/luka_mumladze/CLionProjects/LEO/src/../include/store_and_forward_routing.h \
- /home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h \
- /home/luka_mumladze/CLionProjects/LEO/src/../include/packet.h \
- /home/luka_mumladze/CLionProjects/LEO/src/../include/node.h \
+ /home/luka_mumladze/Thesis\ (3)/LEO/src/../include/store_and_forward_routing.h \
+ /home/luka_mumladze/Thesis\ (3)/LEO/src/../include/routing_algorithm.h \
+ /home/luka_mumladze/Thesis\ (3)/LEO/src/../include/packet.h \
+ /home/luka_mumladze/Thesis\ (3)/LEO/src/../include/node.h \
  /usr/include/c++/14.2.0/memory /usr/include/c++/14.2.0/bits/memoryfwd.h \
  /usr/include/c++/14.2.0/bits/allocator.h \
  /usr/include/c++/14.2.0/x86_64-unknown-linux-gnu/bits/c++allocator.h \
@@ -223,7 +223,7 @@ CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o.ddi: \
  /usr/include/c++/14.2.0/backward/auto_ptr.h \
  /usr/include/c++/14.2.0/bits/ranges_uninitialized.h \
  /usr/include/c++/14.2.0/pstl/glue_memory_defs.h \
- /home/luka_mumladze/CLionProjects/LEO/src/../include/position.h \
+ /home/luka_mumladze/Thesis\ (3)/LEO/src/../include/position.h \
  /usr/include/c++/14.2.0/vector /usr/include/c++/14.2.0/bits/stl_vector.h \
  /usr/include/c++/14.2.0/bits/stl_bvector.h \
  /usr/include/c++/14.2.0/bits/vector.tcc /usr/include/c++/14.2.0/map \
@@ -234,9 +234,9 @@ CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o.ddi: \
  /usr/include/c++/14.2.0/bits/erase_if.h /usr/include/c++/14.2.0/set \
  /usr/include/c++/14.2.0/bits/stl_set.h \
  /usr/include/c++/14.2.0/bits/stl_multiset.h \
- /home/luka_mumladze/CLionProjects/LEO/src/../include/satellite.h \
- /home/luka_mumladze/CLionProjects/LEO/src/../include/orbit_params.h \
- /home/luka_mumladze/CLionProjects/LEO/src/../include/ground_station.h \
+ /home/luka_mumladze/Thesis\ (3)/LEO/src/../include/satellite.h \
+ /home/luka_mumladze/Thesis\ (3)/LEO/src/../include/orbit_params.h \
+ /home/luka_mumladze/Thesis\ (3)/LEO/src/../include/ground_station.h \
  /usr/include/c++/14.2.0/limits /usr/include/c++/14.2.0/random \
  /usr/include/c++/14.2.0/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \

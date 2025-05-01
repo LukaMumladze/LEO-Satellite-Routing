@@ -1,17 +1,17 @@
-# 0 "/home/luka_mumladze/CLionProjects/LEO/src/GeographicalRouting.cpp"
-# 1 "/home/luka_mumladze/CLionProjects/LEO/cmake-build-debug//"
+# 0 "/home/luka_mumladze/Thesis (3)/LEO/src/GeographicalRouting.cpp"
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug//"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/GeographicalRouting.cpp"
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/geographical_routing.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/GeographicalRouting.cpp"
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/geographical_routing.h" 1
 
 
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h" 1
 
 
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/packet.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/packet.h" 1
 
 
 
@@ -35,8 +35,8 @@ private:
     int size;
     int hopCount;
 };
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/node.h" 1
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/node.h" 1
 
 
 # 1 "/usr/include/c++/14.2.0/memory" 1 3
@@ -53638,13 +53638,13 @@ uninitialized_value_construct_n(_ExecutionPolicy&& __exec, _ForwardIterator __fi
 
 }
 # 172 "/usr/include/c++/14.2.0/memory" 2 3
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/node.h" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/position.h" 1
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/node.h" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/position.h" 1
 
 
 
 
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/position.h"
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/position.h"
 struct Position {
     double x;
     double y;
@@ -53654,7 +53654,7 @@ struct Position {
     Position(double x, double y, double z);
     [[nodiscard]] double distanceTo(const Position &other) const;
 };
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/node.h" 2
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/node.h" 2
 class Node {
 public:
     Node(int id, const Position& pos);
@@ -53675,7 +53675,7 @@ protected:
     Position position_;
     double elapsedTime = 0.0;
 };
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h" 2
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h" 2
 # 1 "/usr/include/c++/14.2.0/vector" 1 3
 # 58 "/usr/include/c++/14.2.0/vector" 3
        
@@ -57632,11 +57632,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 }
-# 6 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h" 2
+# 6 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h" 2
 
 
 
-# 8 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h"
+# 8 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h"
 class RoutingAlgorithm {
 public:
     virtual ~RoutingAlgorithm() = default;
@@ -57647,7 +57647,7 @@ public:
          const std::vector<std::shared_ptr<Node>>& allNodes) = 0;
     [[nodiscard]] virtual std::string getName() const = 0;
 };
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/geographical_routing.h" 2
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/geographical_routing.h" 2
 
 class GeographicRouting : public RoutingAlgorithm {
 public :
@@ -57655,7 +57655,7 @@ public :
         const std::vector<std::shared_ptr<Node>>& allNodes) override;
     [[nodiscard]] std::string getName() const override;
 };
-# 2 "/home/luka_mumladze/CLionProjects/LEO/src/GeographicalRouting.cpp" 2
+# 2 "/home/luka_mumladze/Thesis (3)/LEO/src/GeographicalRouting.cpp" 2
 # 1 "/usr/include/c++/14.2.0/limits" 1 3
 # 40 "/usr/include/c++/14.2.0/limits" 3
        
@@ -59297,7 +59297,7 @@ __extension__ template<> struct numeric_limits<_Float128> { static constexpr boo
 
 
 }
-# 3 "/home/luka_mumladze/CLionProjects/LEO/src/GeographicalRouting.cpp" 2
+# 3 "/home/luka_mumladze/Thesis (3)/LEO/src/GeographicalRouting.cpp" 2
 # 1 "/usr/include/c++/14.2.0/map" 1 3
 # 58 "/usr/include/c++/14.2.0/map" 3
        
@@ -63757,7 +63757,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 }
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/GeographicalRouting.cpp" 2
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/GeographicalRouting.cpp" 2
 # 1 "/usr/include/c++/14.2.0/set" 1 3
 # 58 "/usr/include/c++/14.2.0/set" 3
        
@@ -64969,41 +64969,38 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 }
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/GeographicalRouting.cpp" 2
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/GeographicalRouting.cpp" 2
 
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/ground_station.h" 1
-
-
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/ground_station.h" 1
 
 
 
 
-# 6 "/home/luka_mumladze/CLionProjects/LEO/src/../include/ground_station.h"
+
+
+# 6 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/ground_station.h"
 class GroundStation : public Node{
 public:
     GroundStation(int id, const Position& position, double elevationMask = 10.0);
     [[nodiscard]] bool canCommunicateWith(const std::shared_ptr<Node>& other) const override;
 
     void update(double timeStep) override;
-    [[nodiscard]] double debugElevation(const Position& satPosition) const;
     [[nodiscard]] double getElevationMask() const;
     [[nodiscard]] double getElapsedTime() const override;
+    [[nodiscard]] double debugElevation(const Position& satPosition) const;
 
 private:
     double elevationMask_;
     [[nodiscard]] double calculateElevation(const Position& satPosition) const;
 };
-# 7 "/home/luka_mumladze/CLionProjects/LEO/src/GeographicalRouting.cpp" 2
+# 7 "/home/luka_mumladze/Thesis (3)/LEO/src/GeographicalRouting.cpp" 2
 std::shared_ptr<Node> GeographicRouting::findNextHop(const Packet& packet,
                                                     const std::shared_ptr<Node>& currentNode,
                                                     const std::vector<std::shared_ptr<Node>>& allNodes) {
 
-
     static std::map<int, std::set<int>> visitedNodes;
 
-
     visitedNodes[packet.getId()].insert(currentNode->getId());
-
 
     std::shared_ptr<Node> destinationNode = nullptr;
     for (const auto& node : allNodes) {
@@ -65033,11 +65030,9 @@ std::shared_ptr<Node> GeographicRouting::findNextHop(const Packet& packet,
             continue;
         }
 
-
         if (visitedNodes[packet.getId()].count(node->getId()) > 0) {
             continue;
         }
-
 
         auto groundStation = std::dynamic_pointer_cast<GroundStation>(node);
         if (groundStation && node->getId() != packet.getDestinationId()) {

@@ -1,11 +1,11 @@
-# 0 "/home/luka_mumladze/CLionProjects/LEO/src/FloodingRouting.cpp"
-# 1 "/home/luka_mumladze/CLionProjects/LEO/cmake-build-debug//"
+# 0 "/home/luka_mumladze/Thesis (3)/LEO/src/FloodingRouting.cpp"
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug//"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/FloodingRouting.cpp"
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/flooding_routing.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/FloodingRouting.cpp"
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/flooding_routing.h" 1
 
 
 # 1 "/usr/include/c++/14.2.0/map" 1 3
@@ -25552,7 +25552,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 }
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/flooding_routing.h" 2
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/flooding_routing.h" 2
 # 1 "/usr/include/c++/14.2.0/set" 1 3
 # 58 "/usr/include/c++/14.2.0/set" 3
        
@@ -26764,18 +26764,18 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 }
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/flooding_routing.h" 2
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/flooding_routing.h" 2
 
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h" 1
-
-
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/packet.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h" 1
 
 
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/packet.h" 1
 
 
 
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/packet.h"
+
+
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/packet.h"
 class Packet {
 public:
     Packet(int id, int sourceId, int destinationId, double creationTime, int size = 1);
@@ -26795,8 +26795,8 @@ private:
     int size;
     int hopCount;
 };
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/node.h" 1
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/node.h" 1
 
 
 # 1 "/usr/include/c++/14.2.0/memory" 1 3
@@ -59320,13 +59320,13 @@ uninitialized_value_construct_n(_ExecutionPolicy&& __exec, _ForwardIterator __fi
 
 }
 # 172 "/usr/include/c++/14.2.0/memory" 2 3
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/node.h" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/position.h" 1
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/node.h" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/position.h" 1
 
 
 
 
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/position.h"
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/position.h"
 struct Position {
     double x;
     double y;
@@ -59336,7 +59336,7 @@ struct Position {
     Position(double x, double y, double z);
     [[nodiscard]] double distanceTo(const Position &other) const;
 };
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/node.h" 2
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/node.h" 2
 class Node {
 public:
     Node(int id, const Position& pos);
@@ -59357,7 +59357,7 @@ protected:
     Position position_;
     double elapsedTime = 0.0;
 };
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h" 2
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h" 2
 # 1 "/usr/include/c++/14.2.0/vector" 1 3
 # 58 "/usr/include/c++/14.2.0/vector" 3
        
@@ -63314,11 +63314,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 }
-# 6 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h" 2
+# 6 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h" 2
 
 
 
-# 8 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h"
+# 8 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h"
 class RoutingAlgorithm {
 public:
     virtual ~RoutingAlgorithm() = default;
@@ -63329,7 +63329,7 @@ public:
          const std::vector<std::shared_ptr<Node>>& allNodes) = 0;
     [[nodiscard]] virtual std::string getName() const = 0;
 };
-# 7 "/home/luka_mumladze/CLionProjects/LEO/src/../include/flooding_routing.h" 2
+# 7 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/flooding_routing.h" 2
 
 class FloodingRouting :public RoutingAlgorithm {
 public:
@@ -63343,8 +63343,8 @@ private:
     std::map<int, std::set<int>> packetHistory;
     std::map<int, size_t> nextHopIndex;
 };
-# 2 "/home/luka_mumladze/CLionProjects/LEO/src/FloodingRouting.cpp" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/ground_station.h" 1
+# 2 "/home/luka_mumladze/Thesis (3)/LEO/src/FloodingRouting.cpp" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/ground_station.h" 1
 
 
 
@@ -63356,15 +63356,15 @@ public:
     [[nodiscard]] bool canCommunicateWith(const std::shared_ptr<Node>& other) const override;
 
     void update(double timeStep) override;
-    [[nodiscard]] double debugElevation(const Position& satPosition) const;
     [[nodiscard]] double getElevationMask() const;
     [[nodiscard]] double getElapsedTime() const override;
+    [[nodiscard]] double debugElevation(const Position& satPosition) const;
 
 private:
     double elevationMask_;
     [[nodiscard]] double calculateElevation(const Position& satPosition) const;
 };
-# 3 "/home/luka_mumladze/CLionProjects/LEO/src/FloodingRouting.cpp" 2
+# 3 "/home/luka_mumladze/Thesis (3)/LEO/src/FloodingRouting.cpp" 2
 
 FloodingRouting::FloodingRouting() {
     packetHistory.clear();

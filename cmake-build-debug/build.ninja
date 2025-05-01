@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/luka_mumladze/CLionProjects/LEO/cmake-build-debug/
+cmake_ninja_workdir = /home/luka_mumladze/Thesis$ (3)/LEO/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target LEO2_0
 
@@ -47,281 +47,332 @@ cmake_ninja_workdir = /home/luka_mumladze/CLionProjects/LEO/cmake-build-debug/
 #############################################
 # Order-only phony target for LEO2_0
 
-build cmake_object_order_depends_target_LEO2_0: phony || .
+build cmake_object_order_depends_target_LEO2_0: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
 
-build CMakeFiles/LEO2_0.dir/main.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/CLionProjects/LEO/main.cpp || cmake_object_order_depends_target_LEO2_0
+build CMakeFiles/LEO2_0.dir/main.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/Thesis$ (3)/LEO/main.cpp || cmake_object_order_depends_target_LEO2_0
   DEP_FILE = CMakeFiles/LEO2_0.dir/main.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LEO2_0.dir/main.cpp.o.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJ_FILE = CMakeFiles/LEO2_0.dir/main.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LEO2_0.dir/main.cpp.o.ddi.i
 
-build CMakeFiles/LEO2_0.dir/main.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/CLionProjects/LEO/main.cpp | CMakeFiles/LEO2_0.dir/main.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
+build CMakeFiles/LEO2_0.dir/main.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/main.cpp | CMakeFiles/LEO2_0.dir/main.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
   DEP_FILE = CMakeFiles/LEO2_0.dir/main.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LEO2_0.dir/main.cpp.o.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJECT_DIR = CMakeFiles/LEO2_0.dir
   OBJECT_FILE_DIR = CMakeFiles/LEO2_0.dir
   TARGET_COMPILE_PDB = CMakeFiles/LEO2_0.dir/
   TARGET_PDB = LEO2_0.pdb
   dyndep = CMakeFiles/LEO2_0.dir/CXX.dd
 
-build CMakeFiles/LEO2_0.dir/src/Position.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/CLionProjects/LEO/src/Position.cpp || cmake_object_order_depends_target_LEO2_0
+build CMakeFiles/LEO2_0.dir/src/Position.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/Position.cpp || cmake_object_order_depends_target_LEO2_0
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/Position.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LEO2_0.dir/src/Position.cpp.o.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJ_FILE = CMakeFiles/LEO2_0.dir/src/Position.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LEO2_0.dir/src/Position.cpp.o.ddi.i
 
-build CMakeFiles/LEO2_0.dir/src/Position.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/CLionProjects/LEO/src/Position.cpp | CMakeFiles/LEO2_0.dir/src/Position.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
+build CMakeFiles/LEO2_0.dir/src/Position.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/Position.cpp | CMakeFiles/LEO2_0.dir/src/Position.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/Position.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LEO2_0.dir/src/Position.cpp.o.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJECT_DIR = CMakeFiles/LEO2_0.dir
   OBJECT_FILE_DIR = CMakeFiles/LEO2_0.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/LEO2_0.dir/
   TARGET_PDB = LEO2_0.pdb
   dyndep = CMakeFiles/LEO2_0.dir/CXX.dd
 
-build CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/CLionProjects/LEO/src/OrbitParams.cpp || cmake_object_order_depends_target_LEO2_0
+build CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/OrbitParams.cpp || cmake_object_order_depends_target_LEO2_0
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJ_FILE = CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o.ddi.i
 
-build CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/CLionProjects/LEO/src/OrbitParams.cpp | CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
+build CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/OrbitParams.cpp | CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJECT_DIR = CMakeFiles/LEO2_0.dir
   OBJECT_FILE_DIR = CMakeFiles/LEO2_0.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/LEO2_0.dir/
   TARGET_PDB = LEO2_0.pdb
   dyndep = CMakeFiles/LEO2_0.dir/CXX.dd
 
-build CMakeFiles/LEO2_0.dir/src/Node.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/CLionProjects/LEO/src/Node.cpp || cmake_object_order_depends_target_LEO2_0
+build CMakeFiles/LEO2_0.dir/src/Node.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/Node.cpp || cmake_object_order_depends_target_LEO2_0
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/Node.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LEO2_0.dir/src/Node.cpp.o.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJ_FILE = CMakeFiles/LEO2_0.dir/src/Node.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LEO2_0.dir/src/Node.cpp.o.ddi.i
 
-build CMakeFiles/LEO2_0.dir/src/Node.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/CLionProjects/LEO/src/Node.cpp | CMakeFiles/LEO2_0.dir/src/Node.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
+build CMakeFiles/LEO2_0.dir/src/Node.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/Node.cpp | CMakeFiles/LEO2_0.dir/src/Node.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/Node.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LEO2_0.dir/src/Node.cpp.o.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJECT_DIR = CMakeFiles/LEO2_0.dir
   OBJECT_FILE_DIR = CMakeFiles/LEO2_0.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/LEO2_0.dir/
   TARGET_PDB = LEO2_0.pdb
   dyndep = CMakeFiles/LEO2_0.dir/CXX.dd
 
-build CMakeFiles/LEO2_0.dir/src/Satellite.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/CLionProjects/LEO/src/Satellite.cpp || cmake_object_order_depends_target_LEO2_0
+build CMakeFiles/LEO2_0.dir/src/Satellite.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/Satellite.cpp || cmake_object_order_depends_target_LEO2_0
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/Satellite.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LEO2_0.dir/src/Satellite.cpp.o.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJ_FILE = CMakeFiles/LEO2_0.dir/src/Satellite.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LEO2_0.dir/src/Satellite.cpp.o.ddi.i
 
-build CMakeFiles/LEO2_0.dir/src/Satellite.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/CLionProjects/LEO/src/Satellite.cpp | CMakeFiles/LEO2_0.dir/src/Satellite.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
+build CMakeFiles/LEO2_0.dir/src/Satellite.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/Satellite.cpp | CMakeFiles/LEO2_0.dir/src/Satellite.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/Satellite.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LEO2_0.dir/src/Satellite.cpp.o.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJECT_DIR = CMakeFiles/LEO2_0.dir
   OBJECT_FILE_DIR = CMakeFiles/LEO2_0.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/LEO2_0.dir/
   TARGET_PDB = LEO2_0.pdb
   dyndep = CMakeFiles/LEO2_0.dir/CXX.dd
 
-build CMakeFiles/LEO2_0.dir/src/GroundStation.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/CLionProjects/LEO/src/GroundStation.cpp || cmake_object_order_depends_target_LEO2_0
+build CMakeFiles/LEO2_0.dir/src/GroundStation.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/GroundStation.cpp || cmake_object_order_depends_target_LEO2_0
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/GroundStation.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LEO2_0.dir/src/GroundStation.cpp.o.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJ_FILE = CMakeFiles/LEO2_0.dir/src/GroundStation.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LEO2_0.dir/src/GroundStation.cpp.o.ddi.i
 
-build CMakeFiles/LEO2_0.dir/src/GroundStation.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/CLionProjects/LEO/src/GroundStation.cpp | CMakeFiles/LEO2_0.dir/src/GroundStation.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
+build CMakeFiles/LEO2_0.dir/src/GroundStation.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/GroundStation.cpp | CMakeFiles/LEO2_0.dir/src/GroundStation.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/GroundStation.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LEO2_0.dir/src/GroundStation.cpp.o.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJECT_DIR = CMakeFiles/LEO2_0.dir
   OBJECT_FILE_DIR = CMakeFiles/LEO2_0.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/LEO2_0.dir/
   TARGET_PDB = LEO2_0.pdb
   dyndep = CMakeFiles/LEO2_0.dir/CXX.dd
 
-build CMakeFiles/LEO2_0.dir/src/DirectRouting.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/CLionProjects/LEO/src/DirectRouting.cpp || cmake_object_order_depends_target_LEO2_0
+build CMakeFiles/LEO2_0.dir/src/DirectRouting.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/DirectRouting.cpp || cmake_object_order_depends_target_LEO2_0
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/DirectRouting.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LEO2_0.dir/src/DirectRouting.cpp.o.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJ_FILE = CMakeFiles/LEO2_0.dir/src/DirectRouting.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LEO2_0.dir/src/DirectRouting.cpp.o.ddi.i
 
-build CMakeFiles/LEO2_0.dir/src/DirectRouting.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/CLionProjects/LEO/src/DirectRouting.cpp | CMakeFiles/LEO2_0.dir/src/DirectRouting.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
+build CMakeFiles/LEO2_0.dir/src/DirectRouting.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/DirectRouting.cpp | CMakeFiles/LEO2_0.dir/src/DirectRouting.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/DirectRouting.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LEO2_0.dir/src/DirectRouting.cpp.o.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJECT_DIR = CMakeFiles/LEO2_0.dir
   OBJECT_FILE_DIR = CMakeFiles/LEO2_0.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/LEO2_0.dir/
   TARGET_PDB = LEO2_0.pdb
   dyndep = CMakeFiles/LEO2_0.dir/CXX.dd
 
-build CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/CLionProjects/LEO/src/StoreAndForwardRouting.cpp || cmake_object_order_depends_target_LEO2_0
+build CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/StoreAndForwardRouting.cpp || cmake_object_order_depends_target_LEO2_0
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJ_FILE = CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o.ddi.i
 
-build CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/CLionProjects/LEO/src/StoreAndForwardRouting.cpp | CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
+build CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/StoreAndForwardRouting.cpp | CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJECT_DIR = CMakeFiles/LEO2_0.dir
   OBJECT_FILE_DIR = CMakeFiles/LEO2_0.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/LEO2_0.dir/
   TARGET_PDB = LEO2_0.pdb
   dyndep = CMakeFiles/LEO2_0.dir/CXX.dd
 
-build CMakeFiles/LEO2_0.dir/src/GeographicalRouting.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/CLionProjects/LEO/src/GeographicalRouting.cpp || cmake_object_order_depends_target_LEO2_0
+build CMakeFiles/LEO2_0.dir/src/GeographicalRouting.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/GeographicalRouting.cpp || cmake_object_order_depends_target_LEO2_0
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/GeographicalRouting.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LEO2_0.dir/src/GeographicalRouting.cpp.o.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJ_FILE = CMakeFiles/LEO2_0.dir/src/GeographicalRouting.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LEO2_0.dir/src/GeographicalRouting.cpp.o.ddi.i
 
-build CMakeFiles/LEO2_0.dir/src/GeographicalRouting.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/CLionProjects/LEO/src/GeographicalRouting.cpp | CMakeFiles/LEO2_0.dir/src/GeographicalRouting.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
+build CMakeFiles/LEO2_0.dir/src/GeographicalRouting.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/GeographicalRouting.cpp | CMakeFiles/LEO2_0.dir/src/GeographicalRouting.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/GeographicalRouting.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LEO2_0.dir/src/GeographicalRouting.cpp.o.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJECT_DIR = CMakeFiles/LEO2_0.dir
   OBJECT_FILE_DIR = CMakeFiles/LEO2_0.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/LEO2_0.dir/
   TARGET_PDB = LEO2_0.pdb
   dyndep = CMakeFiles/LEO2_0.dir/CXX.dd
 
-build CMakeFiles/LEO2_0.dir/src/FloodingRouting.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/CLionProjects/LEO/src/FloodingRouting.cpp || cmake_object_order_depends_target_LEO2_0
+build CMakeFiles/LEO2_0.dir/src/FloodingRouting.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/FloodingRouting.cpp || cmake_object_order_depends_target_LEO2_0
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/FloodingRouting.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LEO2_0.dir/src/FloodingRouting.cpp.o.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJ_FILE = CMakeFiles/LEO2_0.dir/src/FloodingRouting.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LEO2_0.dir/src/FloodingRouting.cpp.o.ddi.i
 
-build CMakeFiles/LEO2_0.dir/src/FloodingRouting.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/CLionProjects/LEO/src/FloodingRouting.cpp | CMakeFiles/LEO2_0.dir/src/FloodingRouting.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
+build CMakeFiles/LEO2_0.dir/src/FloodingRouting.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/FloodingRouting.cpp | CMakeFiles/LEO2_0.dir/src/FloodingRouting.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/FloodingRouting.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LEO2_0.dir/src/FloodingRouting.cpp.o.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJECT_DIR = CMakeFiles/LEO2_0.dir
   OBJECT_FILE_DIR = CMakeFiles/LEO2_0.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/LEO2_0.dir/
   TARGET_PDB = LEO2_0.pdb
   dyndep = CMakeFiles/LEO2_0.dir/CXX.dd
 
-build CMakeFiles/LEO2_0.dir/src/HierarchicalRouting.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/CLionProjects/LEO/src/HierarchicalRouting.cpp || cmake_object_order_depends_target_LEO2_0
+build CMakeFiles/LEO2_0.dir/src/HierarchicalRouting.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/HierarchicalRouting.cpp || cmake_object_order_depends_target_LEO2_0
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/HierarchicalRouting.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LEO2_0.dir/src/HierarchicalRouting.cpp.o.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJ_FILE = CMakeFiles/LEO2_0.dir/src/HierarchicalRouting.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LEO2_0.dir/src/HierarchicalRouting.cpp.o.ddi.i
 
-build CMakeFiles/LEO2_0.dir/src/HierarchicalRouting.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/CLionProjects/LEO/src/HierarchicalRouting.cpp | CMakeFiles/LEO2_0.dir/src/HierarchicalRouting.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
+build CMakeFiles/LEO2_0.dir/src/HierarchicalRouting.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/HierarchicalRouting.cpp | CMakeFiles/LEO2_0.dir/src/HierarchicalRouting.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/HierarchicalRouting.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LEO2_0.dir/src/HierarchicalRouting.cpp.o.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJECT_DIR = CMakeFiles/LEO2_0.dir
   OBJECT_FILE_DIR = CMakeFiles/LEO2_0.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/LEO2_0.dir/
   TARGET_PDB = LEO2_0.pdb
   dyndep = CMakeFiles/LEO2_0.dir/CXX.dd
 
-build CMakeFiles/LEO2_0.dir/src/MultiHopRouting.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/CLionProjects/LEO/src/MultiHopRouting.cpp || cmake_object_order_depends_target_LEO2_0
+build CMakeFiles/LEO2_0.dir/src/MultiHopRouting.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/MultiHopRouting.cpp || cmake_object_order_depends_target_LEO2_0
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/MultiHopRouting.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LEO2_0.dir/src/MultiHopRouting.cpp.o.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJ_FILE = CMakeFiles/LEO2_0.dir/src/MultiHopRouting.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LEO2_0.dir/src/MultiHopRouting.cpp.o.ddi.i
 
-build CMakeFiles/LEO2_0.dir/src/MultiHopRouting.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/CLionProjects/LEO/src/MultiHopRouting.cpp | CMakeFiles/LEO2_0.dir/src/MultiHopRouting.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
+build CMakeFiles/LEO2_0.dir/src/MultiHopRouting.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/MultiHopRouting.cpp | CMakeFiles/LEO2_0.dir/src/MultiHopRouting.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/MultiHopRouting.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LEO2_0.dir/src/MultiHopRouting.cpp.o.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJECT_DIR = CMakeFiles/LEO2_0.dir
   OBJECT_FILE_DIR = CMakeFiles/LEO2_0.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/LEO2_0.dir/
   TARGET_PDB = LEO2_0.pdb
   dyndep = CMakeFiles/LEO2_0.dir/CXX.dd
 
-build CMakeFiles/LEO2_0.dir/src/FlowAnalyzer.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/CLionProjects/LEO/src/FlowAnalyzer.cpp || cmake_object_order_depends_target_LEO2_0
+build CMakeFiles/LEO2_0.dir/src/FlowAnalyzer.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/FlowAnalyzer.cpp || cmake_object_order_depends_target_LEO2_0
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/FlowAnalyzer.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LEO2_0.dir/src/FlowAnalyzer.cpp.o.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJ_FILE = CMakeFiles/LEO2_0.dir/src/FlowAnalyzer.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LEO2_0.dir/src/FlowAnalyzer.cpp.o.ddi.i
 
-build CMakeFiles/LEO2_0.dir/src/FlowAnalyzer.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/CLionProjects/LEO/src/FlowAnalyzer.cpp | CMakeFiles/LEO2_0.dir/src/FlowAnalyzer.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
+build CMakeFiles/LEO2_0.dir/src/FlowAnalyzer.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/FlowAnalyzer.cpp | CMakeFiles/LEO2_0.dir/src/FlowAnalyzer.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/FlowAnalyzer.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LEO2_0.dir/src/FlowAnalyzer.cpp.o.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJECT_DIR = CMakeFiles/LEO2_0.dir
   OBJECT_FILE_DIR = CMakeFiles/LEO2_0.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/LEO2_0.dir/
   TARGET_PDB = LEO2_0.pdb
   dyndep = CMakeFiles/LEO2_0.dir/CXX.dd
 
-build CMakeFiles/LEO2_0.dir/src/SimulationEngine.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/CLionProjects/LEO/src/SimulationEngine.cpp || cmake_object_order_depends_target_LEO2_0
+build CMakeFiles/LEO2_0.dir/src/SimulationEngine.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/SimulationEngine.cpp || cmake_object_order_depends_target_LEO2_0
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/SimulationEngine.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LEO2_0.dir/src/SimulationEngine.cpp.o.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJ_FILE = CMakeFiles/LEO2_0.dir/src/SimulationEngine.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LEO2_0.dir/src/SimulationEngine.cpp.o.ddi.i
 
-build CMakeFiles/LEO2_0.dir/src/SimulationEngine.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/CLionProjects/LEO/src/SimulationEngine.cpp | CMakeFiles/LEO2_0.dir/src/SimulationEngine.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
+build CMakeFiles/LEO2_0.dir/src/SimulationEngine.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/SimulationEngine.cpp | CMakeFiles/LEO2_0.dir/src/SimulationEngine.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/SimulationEngine.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LEO2_0.dir/src/SimulationEngine.cpp.o.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJECT_DIR = CMakeFiles/LEO2_0.dir
   OBJECT_FILE_DIR = CMakeFiles/LEO2_0.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/LEO2_0.dir/
   TARGET_PDB = LEO2_0.pdb
   dyndep = CMakeFiles/LEO2_0.dir/CXX.dd
 
-build CMakeFiles/LEO2_0.dir/src/Packet.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/CLionProjects/LEO/src/Packet.cpp || cmake_object_order_depends_target_LEO2_0
+build CMakeFiles/LEO2_0.dir/src/Packet.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/Packet.cpp || cmake_object_order_depends_target_LEO2_0
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/Packet.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LEO2_0.dir/src/Packet.cpp.o.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJ_FILE = CMakeFiles/LEO2_0.dir/src/Packet.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LEO2_0.dir/src/Packet.cpp.o.ddi.i
 
-build CMakeFiles/LEO2_0.dir/src/Packet.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/CLionProjects/LEO/src/Packet.cpp | CMakeFiles/LEO2_0.dir/src/Packet.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
+build CMakeFiles/LEO2_0.dir/src/Packet.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/Packet.cpp | CMakeFiles/LEO2_0.dir/src/Packet.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/Packet.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LEO2_0.dir/src/Packet.cpp.o.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJECT_DIR = CMakeFiles/LEO2_0.dir
   OBJECT_FILE_DIR = CMakeFiles/LEO2_0.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/LEO2_0.dir/
   TARGET_PDB = LEO2_0.pdb
   dyndep = CMakeFiles/LEO2_0.dir/CXX.dd
 
-build CMakeFiles/LEO2_0.dir/src/RoutingAlgorithm.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/CLionProjects/LEO/src/RoutingAlgorithm.cpp || cmake_object_order_depends_target_LEO2_0
+build CMakeFiles/LEO2_0.dir/src/RoutingAlgorithm.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/RoutingAlgorithm.cpp || cmake_object_order_depends_target_LEO2_0
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/RoutingAlgorithm.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LEO2_0.dir/src/RoutingAlgorithm.cpp.o.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJ_FILE = CMakeFiles/LEO2_0.dir/src/RoutingAlgorithm.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/LEO2_0.dir/src/RoutingAlgorithm.cpp.o.ddi.i
 
-build CMakeFiles/LEO2_0.dir/src/RoutingAlgorithm.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/CLionProjects/LEO/src/RoutingAlgorithm.cpp | CMakeFiles/LEO2_0.dir/src/RoutingAlgorithm.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
+build CMakeFiles/LEO2_0.dir/src/RoutingAlgorithm.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/RoutingAlgorithm.cpp | CMakeFiles/LEO2_0.dir/src/RoutingAlgorithm.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
   DEP_FILE = CMakeFiles/LEO2_0.dir/src/RoutingAlgorithm.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/LEO2_0.dir/src/RoutingAlgorithm.cpp.o.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
   OBJECT_DIR = CMakeFiles/LEO2_0.dir
   OBJECT_FILE_DIR = CMakeFiles/LEO2_0.dir/src
   TARGET_COMPILE_PDB = CMakeFiles/LEO2_0.dir/
   TARGET_PDB = LEO2_0.pdb
   dyndep = CMakeFiles/LEO2_0.dir/CXX.dd
 
-build CMakeFiles/LEO2_0.dir/CXX.dd | /home/luka_mumladze/CLionProjects/LEO/cmake-build-debug/CMakeFiles/LEO2_0.dir/CXXModules.json CMakeFiles/LEO2_0.dir/main.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/Position.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/Node.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/Satellite.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/GroundStation.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/DirectRouting.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/GeographicalRouting.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/FloodingRouting.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/HierarchicalRouting.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/MultiHopRouting.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/FlowAnalyzer.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/SimulationEngine.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/Packet.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/RoutingAlgorithm.cpp.o.modmap: CXX_DYNDEP__LEO2_0_Debug CMakeFiles/LEO2_0.dir/main.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/Position.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/Node.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/Satellite.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/GroundStation.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/DirectRouting.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/GeographicalRouting.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/FloodingRouting.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/HierarchicalRouting.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/MultiHopRouting.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/FlowAnalyzer.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/SimulationEngine.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/Packet.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/RoutingAlgorithm.cpp.o.ddi | /home/luka_mumladze/CLionProjects/LEO/cmake-build-debug/CMakeFiles/LEO2_0.dir/CXXDependInfo.json
+build CMakeFiles/LEO2_0.dir/src/SimulationManager.cpp.o.ddi: CXX_SCAN__LEO2_0_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/SimulationManager.cpp || cmake_object_order_depends_target_LEO2_0
+  DEP_FILE = CMakeFiles/LEO2_0.dir/src/SimulationManager.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/LEO2_0.dir/src/SimulationManager.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/LEO2_0.dir/src/SimulationManager.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/LEO2_0.dir/src/SimulationManager.cpp.o.ddi.i
+
+build CMakeFiles/LEO2_0.dir/src/SimulationManager.cpp.o: CXX_COMPILER__LEO2_0_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/SimulationManager.cpp | CMakeFiles/LEO2_0.dir/src/SimulationManager.cpp.o.modmap || cmake_object_order_depends_target_LEO2_0 CMakeFiles/LEO2_0.dir/CXX.dd
+  DEP_FILE = CMakeFiles/LEO2_0.dir/src/SimulationManager.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/LEO2_0.dir/src/SimulationManager.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/LEO2_0.dir
+  OBJECT_FILE_DIR = CMakeFiles/LEO2_0.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/LEO2_0.dir/
+  TARGET_PDB = LEO2_0.pdb
+  dyndep = CMakeFiles/LEO2_0.dir/CXX.dd
+
+build CMakeFiles/LEO2_0.dir/CXX.dd | /home/luka_mumladze/Thesis$ (3)/LEO/cmake-build-debug/CMakeFiles/LEO2_0.dir/CXXModules.json CMakeFiles/LEO2_0.dir/main.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/Position.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/Node.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/Satellite.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/GroundStation.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/DirectRouting.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/GeographicalRouting.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/FloodingRouting.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/HierarchicalRouting.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/MultiHopRouting.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/FlowAnalyzer.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/SimulationEngine.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/Packet.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/RoutingAlgorithm.cpp.o.modmap CMakeFiles/LEO2_0.dir/src/SimulationManager.cpp.o.modmap: CXX_DYNDEP__LEO2_0_Debug CMakeFiles/LEO2_0.dir/main.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/Position.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/Node.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/Satellite.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/GroundStation.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/DirectRouting.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/GeographicalRouting.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/FloodingRouting.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/HierarchicalRouting.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/MultiHopRouting.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/FlowAnalyzer.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/SimulationEngine.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/Packet.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/RoutingAlgorithm.cpp.o.ddi CMakeFiles/LEO2_0.dir/src/SimulationManager.cpp.o.ddi | /home/luka_mumladze/Thesis$ (3)/LEO/cmake-build-debug/CMakeFiles/LEO2_0.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -331,10 +382,11 @@ build CMakeFiles/LEO2_0.dir/CXX.dd | /home/luka_mumladze/CLionProjects/LEO/cmake
 #############################################
 # Link the executable LEO2_0
 
-build LEO2_0: CXX_EXECUTABLE_LINKER__LEO2_0_Debug CMakeFiles/LEO2_0.dir/main.cpp.o CMakeFiles/LEO2_0.dir/src/Position.cpp.o CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o CMakeFiles/LEO2_0.dir/src/Node.cpp.o CMakeFiles/LEO2_0.dir/src/Satellite.cpp.o CMakeFiles/LEO2_0.dir/src/GroundStation.cpp.o CMakeFiles/LEO2_0.dir/src/DirectRouting.cpp.o CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o CMakeFiles/LEO2_0.dir/src/GeographicalRouting.cpp.o CMakeFiles/LEO2_0.dir/src/FloodingRouting.cpp.o CMakeFiles/LEO2_0.dir/src/HierarchicalRouting.cpp.o CMakeFiles/LEO2_0.dir/src/MultiHopRouting.cpp.o CMakeFiles/LEO2_0.dir/src/FlowAnalyzer.cpp.o CMakeFiles/LEO2_0.dir/src/SimulationEngine.cpp.o CMakeFiles/LEO2_0.dir/src/Packet.cpp.o CMakeFiles/LEO2_0.dir/src/RoutingAlgorithm.cpp.o
+build LEO2_0: CXX_EXECUTABLE_LINKER__LEO2_0_Debug CMakeFiles/LEO2_0.dir/main.cpp.o CMakeFiles/LEO2_0.dir/src/Position.cpp.o CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o CMakeFiles/LEO2_0.dir/src/Node.cpp.o CMakeFiles/LEO2_0.dir/src/Satellite.cpp.o CMakeFiles/LEO2_0.dir/src/GroundStation.cpp.o CMakeFiles/LEO2_0.dir/src/DirectRouting.cpp.o CMakeFiles/LEO2_0.dir/src/StoreAndForwardRouting.cpp.o CMakeFiles/LEO2_0.dir/src/GeographicalRouting.cpp.o CMakeFiles/LEO2_0.dir/src/FloodingRouting.cpp.o CMakeFiles/LEO2_0.dir/src/HierarchicalRouting.cpp.o CMakeFiles/LEO2_0.dir/src/MultiHopRouting.cpp.o CMakeFiles/LEO2_0.dir/src/FlowAnalyzer.cpp.o CMakeFiles/LEO2_0.dir/src/SimulationEngine.cpp.o CMakeFiles/LEO2_0.dir/src/Packet.cpp.o CMakeFiles/LEO2_0.dir/src/RoutingAlgorithm.cpp.o CMakeFiles/LEO2_0.dir/src/SimulationManager.cpp.o | lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
   DEP_FILE = CMakeFiles/LEO2_0.dir/link.d
   FLAGS = -g
   LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/LEO2_0.dir/link.d
+  LINK_LIBRARIES = lib/libgtest.a  lib/libgtest_main.a  lib/libgtest.a
   OBJECT_DIR = CMakeFiles/LEO2_0.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -342,12 +394,442 @@ build LEO2_0: CXX_EXECUTABLE_LINKER__LEO2_0_Debug CMakeFiles/LEO2_0.dir/main.cpp
   TARGET_FILE = LEO2_0
   TARGET_PDB = LEO2_0.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target runTests
+
+
+#############################################
+# Order-only phony target for runTests
+
+build cmake_object_order_depends_target_runTests: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
+
+build CMakeFiles/runTests.dir/tests/UnitTests.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/tests/UnitTests.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/tests/UnitTests.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/tests/UnitTests.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/tests/UnitTests.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/tests/UnitTests.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/tests/UnitTests.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/tests/UnitTests.cpp | CMakeFiles/runTests.dir/tests/UnitTests.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/tests/UnitTests.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/tests/UnitTests.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/tests
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/src/Position.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/Position.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/src/Position.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/src/Position.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/src/Position.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/src/Position.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/src/Position.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/Position.cpp | CMakeFiles/runTests.dir/src/Position.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/src/Position.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/src/Position.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/src/OrbitParams.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/OrbitParams.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/src/OrbitParams.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/src/OrbitParams.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/src/OrbitParams.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/src/OrbitParams.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/src/OrbitParams.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/OrbitParams.cpp | CMakeFiles/runTests.dir/src/OrbitParams.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/src/OrbitParams.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/src/OrbitParams.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/src/Satellite.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/Satellite.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/src/Satellite.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/src/Satellite.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/src/Satellite.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/src/Satellite.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/src/Satellite.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/Satellite.cpp | CMakeFiles/runTests.dir/src/Satellite.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/src/Satellite.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/src/Satellite.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/src/Node.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/Node.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/src/Node.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/src/Node.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/src/Node.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/src/Node.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/src/Node.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/Node.cpp | CMakeFiles/runTests.dir/src/Node.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/src/Node.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/src/Node.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/src/GroundStation.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/GroundStation.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/src/GroundStation.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/src/GroundStation.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/src/GroundStation.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/src/GroundStation.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/src/GroundStation.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/GroundStation.cpp | CMakeFiles/runTests.dir/src/GroundStation.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/src/GroundStation.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/src/GroundStation.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/src/GeographicalRouting.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/GeographicalRouting.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/src/GeographicalRouting.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/src/GeographicalRouting.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/src/GeographicalRouting.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/src/GeographicalRouting.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/src/GeographicalRouting.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/GeographicalRouting.cpp | CMakeFiles/runTests.dir/src/GeographicalRouting.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/src/GeographicalRouting.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/src/GeographicalRouting.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/src/DirectRouting.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/DirectRouting.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/src/DirectRouting.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/src/DirectRouting.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/src/DirectRouting.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/src/DirectRouting.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/src/DirectRouting.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/DirectRouting.cpp | CMakeFiles/runTests.dir/src/DirectRouting.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/src/DirectRouting.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/src/DirectRouting.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/src/StoreAndForwardRouting.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/StoreAndForwardRouting.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/src/StoreAndForwardRouting.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/src/StoreAndForwardRouting.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/src/StoreAndForwardRouting.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/src/StoreAndForwardRouting.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/src/StoreAndForwardRouting.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/StoreAndForwardRouting.cpp | CMakeFiles/runTests.dir/src/StoreAndForwardRouting.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/src/StoreAndForwardRouting.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/src/StoreAndForwardRouting.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/src/HierarchicalRouting.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/HierarchicalRouting.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/src/HierarchicalRouting.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/src/HierarchicalRouting.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/src/HierarchicalRouting.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/src/HierarchicalRouting.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/src/HierarchicalRouting.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/HierarchicalRouting.cpp | CMakeFiles/runTests.dir/src/HierarchicalRouting.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/src/HierarchicalRouting.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/src/HierarchicalRouting.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/src/MultiHopRouting.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/MultiHopRouting.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/src/MultiHopRouting.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/src/MultiHopRouting.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/src/MultiHopRouting.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/src/MultiHopRouting.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/src/MultiHopRouting.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/MultiHopRouting.cpp | CMakeFiles/runTests.dir/src/MultiHopRouting.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/src/MultiHopRouting.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/src/MultiHopRouting.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/src/FlowAnalyzer.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/FlowAnalyzer.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/src/FlowAnalyzer.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/src/FlowAnalyzer.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/src/FlowAnalyzer.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/src/FlowAnalyzer.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/src/FlowAnalyzer.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/FlowAnalyzer.cpp | CMakeFiles/runTests.dir/src/FlowAnalyzer.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/src/FlowAnalyzer.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/src/FlowAnalyzer.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/src/SimulationEngine.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/SimulationEngine.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/src/SimulationEngine.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/src/SimulationEngine.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/src/SimulationEngine.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/src/SimulationEngine.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/src/SimulationEngine.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/SimulationEngine.cpp | CMakeFiles/runTests.dir/src/SimulationEngine.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/src/SimulationEngine.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/src/SimulationEngine.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/src/Packet.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/Packet.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/src/Packet.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/src/Packet.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/src/Packet.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/src/Packet.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/src/Packet.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/Packet.cpp | CMakeFiles/runTests.dir/src/Packet.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/src/Packet.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/src/Packet.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/src/RoutingAlgorithm.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/RoutingAlgorithm.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/src/RoutingAlgorithm.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/src/RoutingAlgorithm.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/src/RoutingAlgorithm.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/src/RoutingAlgorithm.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/src/RoutingAlgorithm.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/src/RoutingAlgorithm.cpp | CMakeFiles/runTests.dir/src/RoutingAlgorithm.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/src/RoutingAlgorithm.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/src/RoutingAlgorithm.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/tests/FloodingRountingTest.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/tests/FloodingRountingTest.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/tests/FloodingRountingTest.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/tests/FloodingRountingTest.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/tests/FloodingRountingTest.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/tests/FloodingRountingTest.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/tests/FloodingRountingTest.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/tests/FloodingRountingTest.cpp | CMakeFiles/runTests.dir/tests/FloodingRountingTest.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/tests/FloodingRountingTest.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/tests/FloodingRountingTest.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/tests
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/tests/GeographicalTesting.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/tests/GeographicalTesting.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/tests/GeographicalTesting.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/tests/GeographicalTesting.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/tests/GeographicalTesting.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/tests/GeographicalTesting.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/tests/GeographicalTesting.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/tests/GeographicalTesting.cpp | CMakeFiles/runTests.dir/tests/GeographicalTesting.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/tests/GeographicalTesting.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/tests/GeographicalTesting.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/tests
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/tests/MultiHopTesting.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/tests/MultiHopTesting.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/tests/MultiHopTesting.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/tests/MultiHopTesting.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/tests/MultiHopTesting.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/tests/MultiHopTesting.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/tests/MultiHopTesting.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/tests/MultiHopTesting.cpp | CMakeFiles/runTests.dir/tests/MultiHopTesting.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/tests/MultiHopTesting.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/tests/MultiHopTesting.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/tests
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/tests/DirectRoutingTest.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/tests/DirectRoutingTest.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/tests/DirectRoutingTest.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/tests/DirectRoutingTest.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/tests/DirectRoutingTest.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/tests/DirectRoutingTest.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/tests/DirectRoutingTest.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/tests/DirectRoutingTest.cpp | CMakeFiles/runTests.dir/tests/DirectRoutingTest.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/tests/DirectRoutingTest.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/tests/DirectRoutingTest.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/tests
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/tests/StoreAndForwardRoutingTest.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/tests/StoreAndForwardRoutingTest.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/tests/StoreAndForwardRoutingTest.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/tests/StoreAndForwardRoutingTest.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/tests/StoreAndForwardRoutingTest.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/tests/StoreAndForwardRoutingTest.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/tests/StoreAndForwardRoutingTest.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/tests/StoreAndForwardRoutingTest.cpp | CMakeFiles/runTests.dir/tests/StoreAndForwardRoutingTest.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/tests/StoreAndForwardRoutingTest.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/tests/StoreAndForwardRoutingTest.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/tests
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/tests/HierarchicalRoutingTest.cpp.o.ddi: CXX_SCAN__runTests_Debug /home/luka_mumladze/Thesis$ (3)/LEO/tests/HierarchicalRoutingTest.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = CMakeFiles/runTests.dir/tests/HierarchicalRoutingTest.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/runTests.dir/tests/HierarchicalRoutingTest.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJ_FILE = CMakeFiles/runTests.dir/tests/HierarchicalRoutingTest.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/runTests.dir/tests/HierarchicalRoutingTest.cpp.o.ddi.i
+
+build CMakeFiles/runTests.dir/tests/HierarchicalRoutingTest.cpp.o: CXX_COMPILER__runTests_scanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/tests/HierarchicalRoutingTest.cpp | CMakeFiles/runTests.dir/tests/HierarchicalRoutingTest.cpp.o.modmap || cmake_object_order_depends_target_runTests CMakeFiles/runTests.dir/CXX.dd
+  DEP_FILE = CMakeFiles/runTests.dir/tests/HierarchicalRoutingTest.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/runTests.dir/tests/HierarchicalRoutingTest.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/tests" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = CMakeFiles/runTests.dir/tests
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_PDB = runTests.pdb
+  dyndep = CMakeFiles/runTests.dir/CXX.dd
+
+build CMakeFiles/runTests.dir/CXX.dd | /home/luka_mumladze/Thesis$ (3)/LEO/cmake-build-debug/CMakeFiles/runTests.dir/CXXModules.json CMakeFiles/runTests.dir/tests/UnitTests.cpp.o.modmap CMakeFiles/runTests.dir/src/Position.cpp.o.modmap CMakeFiles/runTests.dir/src/OrbitParams.cpp.o.modmap CMakeFiles/runTests.dir/src/Satellite.cpp.o.modmap CMakeFiles/runTests.dir/src/Node.cpp.o.modmap CMakeFiles/runTests.dir/src/GroundStation.cpp.o.modmap CMakeFiles/runTests.dir/src/GeographicalRouting.cpp.o.modmap CMakeFiles/runTests.dir/src/DirectRouting.cpp.o.modmap CMakeFiles/runTests.dir/src/StoreAndForwardRouting.cpp.o.modmap CMakeFiles/runTests.dir/src/HierarchicalRouting.cpp.o.modmap CMakeFiles/runTests.dir/src/MultiHopRouting.cpp.o.modmap CMakeFiles/runTests.dir/src/FlowAnalyzer.cpp.o.modmap CMakeFiles/runTests.dir/src/SimulationEngine.cpp.o.modmap CMakeFiles/runTests.dir/src/Packet.cpp.o.modmap CMakeFiles/runTests.dir/src/RoutingAlgorithm.cpp.o.modmap CMakeFiles/runTests.dir/tests/FloodingRountingTest.cpp.o.modmap CMakeFiles/runTests.dir/tests/GeographicalTesting.cpp.o.modmap CMakeFiles/runTests.dir/tests/MultiHopTesting.cpp.o.modmap CMakeFiles/runTests.dir/tests/DirectRoutingTest.cpp.o.modmap CMakeFiles/runTests.dir/tests/StoreAndForwardRoutingTest.cpp.o.modmap CMakeFiles/runTests.dir/tests/HierarchicalRoutingTest.cpp.o.modmap: CXX_DYNDEP__runTests_Debug CMakeFiles/runTests.dir/tests/UnitTests.cpp.o.ddi CMakeFiles/runTests.dir/src/Position.cpp.o.ddi CMakeFiles/runTests.dir/src/OrbitParams.cpp.o.ddi CMakeFiles/runTests.dir/src/Satellite.cpp.o.ddi CMakeFiles/runTests.dir/src/Node.cpp.o.ddi CMakeFiles/runTests.dir/src/GroundStation.cpp.o.ddi CMakeFiles/runTests.dir/src/GeographicalRouting.cpp.o.ddi CMakeFiles/runTests.dir/src/DirectRouting.cpp.o.ddi CMakeFiles/runTests.dir/src/StoreAndForwardRouting.cpp.o.ddi CMakeFiles/runTests.dir/src/HierarchicalRouting.cpp.o.ddi CMakeFiles/runTests.dir/src/MultiHopRouting.cpp.o.ddi CMakeFiles/runTests.dir/src/FlowAnalyzer.cpp.o.ddi CMakeFiles/runTests.dir/src/SimulationEngine.cpp.o.ddi CMakeFiles/runTests.dir/src/Packet.cpp.o.ddi CMakeFiles/runTests.dir/src/RoutingAlgorithm.cpp.o.ddi CMakeFiles/runTests.dir/tests/FloodingRountingTest.cpp.o.ddi CMakeFiles/runTests.dir/tests/GeographicalTesting.cpp.o.ddi CMakeFiles/runTests.dir/tests/MultiHopTesting.cpp.o.ddi CMakeFiles/runTests.dir/tests/DirectRoutingTest.cpp.o.ddi CMakeFiles/runTests.dir/tests/StoreAndForwardRoutingTest.cpp.o.ddi CMakeFiles/runTests.dir/tests/HierarchicalRoutingTest.cpp.o.ddi | /home/luka_mumladze/Thesis$ (3)/LEO/cmake-build-debug/CMakeFiles/runTests.dir/CXXDependInfo.json
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target runTests
+
+
+#############################################
+# Link the executable runTests
+
+build runTests: CXX_EXECUTABLE_LINKER__runTests_Debug CMakeFiles/runTests.dir/tests/UnitTests.cpp.o CMakeFiles/runTests.dir/src/Position.cpp.o CMakeFiles/runTests.dir/src/OrbitParams.cpp.o CMakeFiles/runTests.dir/src/Satellite.cpp.o CMakeFiles/runTests.dir/src/Node.cpp.o CMakeFiles/runTests.dir/src/GroundStation.cpp.o CMakeFiles/runTests.dir/src/GeographicalRouting.cpp.o CMakeFiles/runTests.dir/src/DirectRouting.cpp.o CMakeFiles/runTests.dir/src/StoreAndForwardRouting.cpp.o CMakeFiles/runTests.dir/src/HierarchicalRouting.cpp.o CMakeFiles/runTests.dir/src/MultiHopRouting.cpp.o CMakeFiles/runTests.dir/src/FlowAnalyzer.cpp.o CMakeFiles/runTests.dir/src/SimulationEngine.cpp.o CMakeFiles/runTests.dir/src/Packet.cpp.o CMakeFiles/runTests.dir/src/RoutingAlgorithm.cpp.o CMakeFiles/runTests.dir/tests/FloodingRountingTest.cpp.o CMakeFiles/runTests.dir/tests/GeographicalTesting.cpp.o CMakeFiles/runTests.dir/tests/MultiHopTesting.cpp.o CMakeFiles/runTests.dir/tests/DirectRoutingTest.cpp.o CMakeFiles/runTests.dir/tests/StoreAndForwardRoutingTest.cpp.o CMakeFiles/runTests.dir/tests/HierarchicalRoutingTest.cpp.o | lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
+  DEP_FILE = CMakeFiles/runTests.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/runTests.dir/link.d
+  LINK_LIBRARIES = lib/libgtest.a  lib/libgtest_main.a  lib/libgtest.a
+  OBJECT_DIR = CMakeFiles/runTests.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/runTests.dir/
+  TARGET_FILE = runTests
+  TARGET_PDB = runTests.pdb
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/luka_mumladze/CLionProjects/LEO/cmake-build-debug && /app/extra/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug" && /app/extra/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -358,15 +840,423 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/luka_mumladze/CLionProjects/LEO/cmake-build-debug && /app/extra/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/luka_mumladze/CLionProjects/LEO -B/home/luka_mumladze/CLionProjects/LEO/cmake-build-debug
+  COMMAND = cd "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug" && /app/extra/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/luka_mumladze/Thesis (3)/LEO" -B"/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
+
+#############################################
+# Utility command for list_install_components
+
+build list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build CMakeFiles/install.util: CUSTOM_COMMAND all
+  COMMAND = cd "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug" && /app/extra/clion/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build install: phony CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build CMakeFiles/install/local.util: CUSTOM_COMMAND all
+  COMMAND = cd "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug" && /app/extra/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build install/local: phony CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
+  COMMAND = cd "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug" && /app/extra/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build install/strip: phony CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/luka_mumladze/Thesis (3)/LEO/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build lib/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest" && /app/extra/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build lib/googletest/edit_cache: phony lib/googletest/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build lib/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest" && /app/extra/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/luka_mumladze/Thesis (3)/LEO" -B"/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build lib/googletest/rebuild_cache: phony lib/googletest/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build lib/googletest/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build lib/googletest/CMakeFiles/install.util: CUSTOM_COMMAND lib/googletest/all
+  COMMAND = cd "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest" && /app/extra/clion/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build lib/googletest/install: phony lib/googletest/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build lib/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND lib/googletest/all
+  COMMAND = cd "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest" && /app/extra/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build lib/googletest/install/local: phony lib/googletest/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build lib/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND lib/googletest/all
+  COMMAND = cd "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest" && /app/extra/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build lib/googletest/install/strip: phony lib/googletest/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/luka_mumladze/Thesis (3)/LEO/lib/googletest/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gmock
+
+
+#############################################
+# Order-only phony target for gmock
+
+build cmake_object_order_depends_target_gmock: phony || cmake_object_order_depends_target_gtest
+
+build lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: CXX_COMPILER__gmock_unscanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
+  DEP_FILE = lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googlemock/include" -I"/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googlemock" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = lib/googletest/googlemock/CMakeFiles/gmock.dir
+  OBJECT_FILE_DIR = lib/googletest/googlemock/CMakeFiles/gmock.dir/src
+  TARGET_COMPILE_PDB = lib/libgmockpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_PDB = bin/libgmockpdb_debug_postfix-NOTFOUND.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gmock
+
+
+#############################################
+# Link the static library lib/libgmock.a
+
+build lib/libgmock.a: CXX_STATIC_LIBRARY_LINKER__gmock_Debug lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o || lib/libgtest.a
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = lib/googletest/googlemock/CMakeFiles/gmock.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = lib/libgmockpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_FILE = lib/libgmock.a
+  TARGET_PDB = bin/libgmockpdb_debug_postfix-NOTFOUND.pdb
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gmock_main
+
+
+#############################################
+# Order-only phony target for gmock_main
+
+build cmake_object_order_depends_target_gmock_main: phony || cmake_object_order_depends_target_gmock cmake_object_order_depends_target_gtest
+
+build lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: CXX_COMPILER__gmock_main_unscanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
+  DEP_FILE = lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googlemock/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googlemock" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = lib/googletest/googlemock/CMakeFiles/gmock_main.dir
+  OBJECT_FILE_DIR = lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src
+  TARGET_COMPILE_PDB = lib/libgmock_mainpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_PDB = bin/libgmock_mainpdb_debug_postfix-NOTFOUND.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gmock_main
+
+
+#############################################
+# Link the static library lib/libgmock_main.a
+
+build lib/libgmock_main.a: CXX_STATIC_LIBRARY_LINKER__gmock_main_Debug lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o || lib/libgmock.a lib/libgtest.a
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = lib/googletest/googlemock/CMakeFiles/gmock_main.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = lib/libgmock_mainpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_FILE = lib/libgmock_main.a
+  TARGET_PDB = bin/libgmock_mainpdb_debug_postfix-NOTFOUND.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build lib/googletest/googlemock/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest/googlemock" && /app/extra/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build lib/googletest/googlemock/edit_cache: phony lib/googletest/googlemock/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build lib/googletest/googlemock/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest/googlemock" && /app/extra/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/luka_mumladze/Thesis (3)/LEO" -B"/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build lib/googletest/googlemock/rebuild_cache: phony lib/googletest/googlemock/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build lib/googletest/googlemock/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build lib/googletest/googlemock/CMakeFiles/install.util: CUSTOM_COMMAND lib/googletest/googlemock/all
+  COMMAND = cd "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest/googlemock" && /app/extra/clion/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build lib/googletest/googlemock/install: phony lib/googletest/googlemock/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build lib/googletest/googlemock/CMakeFiles/install/local.util: CUSTOM_COMMAND lib/googletest/googlemock/all
+  COMMAND = cd "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest/googlemock" && /app/extra/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build lib/googletest/googlemock/install/local: phony lib/googletest/googlemock/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build lib/googletest/googlemock/CMakeFiles/install/strip.util: CUSTOM_COMMAND lib/googletest/googlemock/all
+  COMMAND = cd "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest/googlemock" && /app/extra/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build lib/googletest/googlemock/install/strip: phony lib/googletest/googlemock/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googlemock/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gtest
+
+
+#############################################
+# Order-only phony target for gtest
+
+build cmake_object_order_depends_target_gtest: phony || .
+
+build lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: CXX_COMPILER__gtest_unscanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
+  DEP_FILE = lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -I"/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -I"/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = lib/googletest/googletest/CMakeFiles/gtest.dir
+  OBJECT_FILE_DIR = lib/googletest/googletest/CMakeFiles/gtest.dir/src
+  TARGET_COMPILE_PDB = lib/libgtestpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_PDB = bin/libgtestpdb_debug_postfix-NOTFOUND.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gtest
+
+
+#############################################
+# Link the static library lib/libgtest.a
+
+build lib/libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Debug lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = lib/googletest/googletest/CMakeFiles/gtest.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = lib/libgtestpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_FILE = lib/libgtest.a
+  TARGET_PDB = bin/libgtestpdb_debug_postfix-NOTFOUND.pdb
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gtest_main
+
+
+#############################################
+# Order-only phony target for gtest_main
+
+build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_depends_target_gtest
+
+build lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: CXX_COMPILER__gtest_main_unscanned_Debug /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
+  DEP_FILE = lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest/include" -isystem "/home/luka_mumladze/Thesis (3)/LEO/lib/googletest/googletest"
+  OBJECT_DIR = lib/googletest/googletest/CMakeFiles/gtest_main.dir
+  OBJECT_FILE_DIR = lib/googletest/googletest/CMakeFiles/gtest_main.dir/src
+  TARGET_COMPILE_PDB = lib/libgtest_mainpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_PDB = bin/libgtest_mainpdb_debug_postfix-NOTFOUND.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gtest_main
+
+
+#############################################
+# Link the static library lib/libgtest_main.a
+
+build lib/libgtest_main.a: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o || lib/libgtest.a
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = lib/googletest/googletest/CMakeFiles/gtest_main.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = lib/libgtest_mainpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_FILE = lib/libgtest_main.a
+  TARGET_PDB = bin/libgtest_mainpdb_debug_postfix-NOTFOUND.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build lib/googletest/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest/googletest" && /app/extra/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build lib/googletest/googletest/edit_cache: phony lib/googletest/googletest/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build lib/googletest/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest/googletest" && /app/extra/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/luka_mumladze/Thesis (3)/LEO" -B"/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build lib/googletest/googletest/rebuild_cache: phony lib/googletest/googletest/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build lib/googletest/googletest/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build lib/googletest/googletest/CMakeFiles/install.util: CUSTOM_COMMAND lib/googletest/googletest/all
+  COMMAND = cd "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest/googletest" && /app/extra/clion/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build lib/googletest/googletest/install: phony lib/googletest/googletest/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build lib/googletest/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND lib/googletest/googletest/all
+  COMMAND = cd "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest/googletest" && /app/extra/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build lib/googletest/googletest/install/local: phony lib/googletest/googletest/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build lib/googletest/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND lib/googletest/googletest/all
+  COMMAND = cd "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest/googletest" && /app/extra/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build lib/googletest/googletest/install/strip: phony lib/googletest/googletest/CMakeFiles/install/strip.util
+
 # =============================================================================
 # Target aliases.
+
+build gmock: phony lib/libgmock.a
+
+build gmock_main: phony lib/libgmock_main.a
+
+build gtest: phony lib/libgtest.a
+
+build gtest_main: phony lib/libgtest_main.a
+
+build libgmock.a: phony lib/libgmock.a
+
+build libgmock_main.a: phony lib/libgmock_main.a
+
+build libgtest.a: phony lib/libgtest.a
+
+build libgtest_main.a: phony lib/libgtest_main.a
 
 # =============================================================================
 # Folder targets.
@@ -374,16 +1264,58 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/luka_mumladze/CLionProjects/LEO/cmake-build-debug
+# Folder: /home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug
 
-build codegen: phony
+build codegen: phony lib/googletest/codegen
 
 # =============================================================================
 
 #############################################
-# Folder: /home/luka_mumladze/CLionProjects/LEO/cmake-build-debug
+# Folder: /home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest
 
-build all: phony LEO2_0
+build lib/googletest/codegen: phony lib/googletest/googlemock/codegen
+
+# =============================================================================
+
+#############################################
+# Folder: /home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest/googlemock
+
+build lib/googletest/googlemock/codegen: phony lib/googletest/googletest/codegen
+
+# =============================================================================
+
+#############################################
+# Folder: /home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest/googletest
+
+build lib/googletest/googletest/codegen: phony
+
+# =============================================================================
+
+#############################################
+# Folder: /home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug
+
+build all: phony LEO2_0 runTests lib/googletest/all
+
+# =============================================================================
+
+#############################################
+# Folder: /home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest
+
+build lib/googletest/all: phony lib/googletest/googlemock/all
+
+# =============================================================================
+
+#############################################
+# Folder: /home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest/googlemock
+
+build lib/googletest/googlemock/all: phony lib/libgmock.a lib/libgmock_main.a lib/googletest/googletest/all
+
+# =============================================================================
+
+#############################################
+# Folder: /home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug/lib/googletest/googletest
+
+build lib/googletest/googletest/all: phony lib/libgtest.a lib/libgtest_main.a
 
 # =============================================================================
 # Built-in targets
@@ -392,14 +1324,14 @@ build all: phony LEO2_0
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCCompiler.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCXXCompiler.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCXXInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCompilerIdDetection.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerSupport.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeFindBinUtils.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeParseImplicitIncludeInfo.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeParseImplicitLinkInfo.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeParseLibraryArchitecture.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeSystem.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeTestCompilerCommon.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/ADSP-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/ARMCC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/ARMClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/AppleClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Borland-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Cray-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/CrayClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GHS-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-FindBinUtils.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/HP-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IAR-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Intel-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/LCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/MSVC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/NVHPC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/OrangeC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/PGI-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/PathScale-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/SCO-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/TI-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/TIClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Tasking-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Watcom-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/XL-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/zOS-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/FeatureTesting.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-Determine-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/UnixPaths.cmake /home/luka_mumladze/CLionProjects/LEO/CMakeLists.txt CMakeCache.txt CMakeFiles/3.31.6/CMakeCCompiler.cmake CMakeFiles/3.31.6/CMakeCXXCompiler.cmake CMakeFiles/3.31.6/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCCompiler.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCXXCompiler.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCXXInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCompilerIdDetection.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDependentOption.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerSupport.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeFindBinUtils.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeParseImplicitIncludeInfo.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeParseImplicitLinkInfo.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeParseLibraryArchitecture.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeSystem.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeTestCompilerCommon.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CheckIncludeFile.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CheckLibraryExists.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/ADSP-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/ARMCC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/ARMClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/AppleClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Borland-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Cray-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/CrayClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GHS-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-FindBinUtils.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/HP-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IAR-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Intel-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/LCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/MSVC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/NVHPC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/OrangeC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/PGI-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/PathScale-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/SCO-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/TI-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/TIClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Tasking-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Watcom-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/XL-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/zOS-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/FindPackageMessage.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/FindThreads.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/GNUInstallDirs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/FeatureTesting.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-Determine-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/UnixPaths.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake /home/luka_mumladze/Thesis$ (3)/LEO/CMakeLists.txt /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/CMakeLists.txt /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/googlemock/CMakeLists.txt /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/googlemock/cmake/gmock.pc.in /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/googlemock/cmake/gmock_main.pc.in /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/googletest/CMakeLists.txt /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/googletest/cmake/Config.cmake.in /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/googletest/cmake/gtest.pc.in /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/googletest/cmake/gtest_main.pc.in /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/googletest/cmake/internal_utils.cmake CMakeCache.txt CMakeFiles/3.31.6/CMakeCCompiler.cmake CMakeFiles/3.31.6/CMakeCXXCompiler.cmake CMakeFiles/3.31.6/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCCompiler.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCXXCompiler.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCXXInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCompilerIdDetection.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerSupport.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeFindBinUtils.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeParseImplicitIncludeInfo.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeParseImplicitLinkInfo.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeParseLibraryArchitecture.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeSystem.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeTestCompilerCommon.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/ADSP-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/ARMCC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/ARMClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/AppleClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Borland-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Cray-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/CrayClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GHS-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-FindBinUtils.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/HP-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IAR-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Intel-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/LCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/MSVC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/NVHPC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/OrangeC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/PGI-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/PathScale-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/SCO-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/TI-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/TIClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Tasking-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Watcom-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/XL-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/zOS-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/FeatureTesting.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-Determine-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/UnixPaths.cmake /home/luka_mumladze/CLionProjects/LEO/CMakeLists.txt CMakeCache.txt CMakeFiles/3.31.6/CMakeCCompiler.cmake CMakeFiles/3.31.6/CMakeCXXCompiler.cmake CMakeFiles/3.31.6/CMakeSystem.cmake: phony
+build /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCCompiler.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCXXCompiler.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCXXInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeCompilerIdDetection.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDependentOption.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineCompilerSupport.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeFindBinUtils.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeParseImplicitIncludeInfo.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeParseImplicitLinkInfo.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeParseLibraryArchitecture.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeSystem.cmake.in /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CMakeTestCompilerCommon.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CheckIncludeFile.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/CheckLibraryExists.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/ADSP-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/ARMCC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/ARMClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/AppleClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Borland-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Cray-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/CrayClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GHS-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU-FindBinUtils.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/HP-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IAR-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Intel-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/LCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/MSVC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/NVHPC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/OrangeC-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/PGI-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/PathScale-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/SCO-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/TI-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/TIClang-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Tasking-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/Watcom-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/XL-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/zOS-C-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/FindPackageMessage.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/FindThreads.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/GNUInstallDirs.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Internal/FeatureTesting.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Linker/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-Determine-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/Platform/UnixPaths.cmake /app/extra/clion/bin/cmake/linux/x64/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake /home/luka_mumladze/Thesis$ (3)/LEO/CMakeLists.txt /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/CMakeLists.txt /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/googlemock/CMakeLists.txt /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/googlemock/cmake/gmock.pc.in /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/googlemock/cmake/gmock_main.pc.in /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/googletest/CMakeLists.txt /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/googletest/cmake/Config.cmake.in /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/googletest/cmake/gtest.pc.in /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/googletest/cmake/gtest_main.pc.in /home/luka_mumladze/Thesis$ (3)/LEO/lib/googletest/googletest/cmake/internal_utils.cmake CMakeCache.txt CMakeFiles/3.31.6/CMakeCCompiler.cmake CMakeFiles/3.31.6/CMakeCXXCompiler.cmake CMakeFiles/3.31.6/CMakeSystem.cmake: phony
 
 
 #############################################

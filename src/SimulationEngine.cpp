@@ -5,9 +5,9 @@
 #include "../include/ground_station.h"
 
 SimulationEngine::SimulationEngine(double timeStep)
-    : timeStep(timeStep), currentTime(0.0), nextPacketId(0) {}
+    : timeStep(timeStep), currentTime(0.0), nextPacketId(0),flag(true) {}
 SimulationEngine::ActivePacket::ActivePacket()
-    : packet(0, 0, 0, 0.0), currentNode(nullptr) {}
+    : packet(0, 0, 0, 0.0), currentNode(nullptr){}
 void SimulationEngine::addSatellite(const OrbitParams& params) {
     int id = static_cast<int>(nodes.size());
     auto satellite = std::make_shared<Satellite>(id, params);
@@ -44,7 +44,7 @@ void SimulationEngine::generatePacket(int sourceId, int destinationId) {
 
 void SimulationEngine::run(double duration) {
     double endTime = currentTime + duration;
-
+    flag =true;
     while (currentTime < endTime) {
         updateNodes();
 
@@ -58,7 +58,6 @@ void SimulationEngine::run(double duration) {
 void SimulationEngine::routePackets() {
     std::vector<ActivePacket> stillActivePackets;
 
-    // Calculate a small time step for incremental updates
     double smallTimeStep = timeStep / (activePackets_.size() > 0 ? activePackets_.size() : 1);
 
     for (const auto& activePacket : activePackets_) {
@@ -81,18 +80,14 @@ void SimulationEngine::routePackets() {
             continue;
         }
 
-        // Find next hop using the routing algorithm
         std::shared_ptr<Node> nextHop = routingAlgorithm->findNextHop(
             activePacket.packet,
             activePacket.currentNode,
             nodes
         );
-
         if (!nextHop) {
-            // no valid next hop, check if we should drop or keep trying
             double timeInSystem = currentTime - activePacket.packet.getCreationTime();
 
-            // drop after 1 hour of simulation time
             if (timeInSystem > 3600.0) {
                 flowAnalyzer.recordFailure(
                     activePacket.packet,
@@ -106,11 +101,18 @@ void SimulationEngine::routePackets() {
             updatedPacket.currentNode = nextHop;
             updatedPacket.path.push_back(nextHop->getId());
 
+          updatedPacket.packet.incrementHopCount();
+
             if (auto satNextHop = std::dynamic_pointer_cast<Satellite>(nextHop)) {
+                if (routingAlgorithm->getName()== "Direct Routing" && updatedPacket.packet.getHopCount() >1 ) {
+                    flowAnalyzer.recordFailure(
+                activePacket.packet,
+        "can't communicate directly"
+                );
+                    flag = false;
+                }
                 if (routingAlgorithm->getName() == "Store-and-Forward Routing") {
-                    // store the packet
                     if (!satNextHop->storePacket(activePacket.packet)) {
-                        // Buffer full
                         flowAnalyzer.recordFailure(
                             activePacket.packet,
                             "Satellite buffer full"
@@ -119,21 +121,24 @@ void SimulationEngine::routePackets() {
                     }
                 }
             }
-
-            stillActivePackets.push_back(updatedPacket);
+            if (flag) {
+                stillActivePackets.push_back(updatedPacket);
+            }else {
+                flag = true;
+            }
         }
 
-        // Update satellite positions by a small amount after each packet
         updateNodes(smallTimeStep);
     }
 
-    // Update active packets list
     activePackets_ = stillActivePackets;
 }
 
 void SimulationEngine::updateNodes() const{
-    for (auto& node : nodes) {
-        node->update(timeStep);
+    if (flag) {
+        for (auto& node : nodes) {
+            node->update(timeStep);
+        }
     }
 }
 

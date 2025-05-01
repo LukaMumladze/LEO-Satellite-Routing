@@ -8,10 +8,11 @@ public:
         int sourceClusterId;
         int destClusterId;
         int gatewayNodeId;
-        double quality; // Metric for gateway quality
+        double quality;
     };
 
     explicit HierarchicalRouting(double clusterRadius = 2000.0, double reclusterInterval = 300.0);
+    void formClusters(const std::vector<std::shared_ptr<Node>>& allNodes);
 
     std::shared_ptr<Node> findNextHop(const Packet& packet, const std::shared_ptr<Node>& currentNode,
         const std::vector<std::shared_ptr<Node>>& allNodes) override;
@@ -44,6 +45,5 @@ private:
     double reclusterInterval;    // time (in simulation units) between reclustering
     double lastReclusterTime;   // last time clusters were formed
 
-    void formClusters(const std::vector<std::shared_ptr<Node>>& allNodes);
 };
 #endif //HIERARCHICAL_ROUTING_H

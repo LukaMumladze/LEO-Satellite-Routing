@@ -17,7 +17,7 @@ HierarchicalRouting::HierarchicalRouting(double clusterRadius, double reclusterI
 std::shared_ptr<Node> HierarchicalRouting:: findNextHop(const Packet& packet, const std::shared_ptr<Node>& currentNode,
     const std::vector<std::shared_ptr<Node>>& allNodes) {
     routingCount++;
-     double currentTime = packet.getCreationTime(); // Use packet creation time as current time
+     double currentTime = packet.getCreationTime();
         if (currentTime >= lastReclusterTime + reclusterInterval) {
             formClusters(allNodes);
             identifyGateways(allNodes);
@@ -41,7 +41,7 @@ std::shared_ptr<Node> HierarchicalRouting:: findNextHop(const Packet& packet, co
         }
 
         int currentClusterId = -1;
-        int currentNodeRole = 0; // 0 = member, 1 = head
+        int currentNodeRole = 0;
 
         bool found = false;
         for (size_t i = 0; i < clusters.size() && !found; ++i) {
@@ -158,7 +158,6 @@ std::string HierarchicalRouting:: getName() const  { return "Hierarchical Routin
 void HierarchicalRouting::formClusters(const std::vector<std::shared_ptr<Node>>& allNodes) {
     clusters.clear();
 
-    // Extract satellites only
     std::vector<std::shared_ptr<Satellite>> satellites;
     for (const auto& node : allNodes) {
         if (auto sat = std::dynamic_pointer_cast<Satellite>(node)) {
@@ -168,7 +167,6 @@ void HierarchicalRouting::formClusters(const std::vector<std::shared_ptr<Node>>&
 
     if (satellites.empty()) return;
 
-    // Step 1: Identify potential cluster heads based on connectivity
     std::vector<std::pair<int, int>> connectivityScores;
     for (size_t i = 0; i < satellites.size(); i++) {
         int connections = 0;
@@ -180,27 +178,22 @@ void HierarchicalRouting::formClusters(const std::vector<std::shared_ptr<Node>>&
         connectivityScores.push_back({static_cast<int>(i), connections});
     }
 
-    // Sort by connectivity (highest first)
     std::ranges::sort(connectivityScores.begin(), connectivityScores.end(),
               [](const auto& a, const auto& b) { return a.second > b.second; });
 
-    // Step 2: Create clusters around best-connected satellites
     std::vector<bool> assigned(satellites.size(), false);
 
-    // Use top 20% of satellites as initial cluster heads
     int numHeads = std::max(1, static_cast<int>(satellites.size() * 0.2));
 
     for (int h = 0; h < numHeads && h < static_cast<int>(connectivityScores.size()); h++) {
         int headIndex = connectivityScores[h].first;
 
-        // Skip if already assigned to another cluster
         if (assigned[headIndex]) continue;
 
         Cluster newCluster;
         newCluster.headId = satellites[headIndex]->getId();
         assigned[headIndex] = true;
 
-        // Add satellites within communication range to cluster
         for (size_t j = 0; j < satellites.size(); j++) {
             if (static_cast<int>(j) != headIndex && !assigned[j] &&
                 satellites[headIndex]->canCommunicateWith(satellites[j])) {
@@ -212,15 +205,12 @@ void HierarchicalRouting::formClusters(const std::vector<std::shared_ptr<Node>>&
         clusters.push_back(newCluster);
     }
 
-    // Handle unassigned satellites
     for (size_t i = 0; i < satellites.size(); i++) {
         if (!assigned[i]) {
-            // Find closest cluster with direct connectivity
             int bestCluster = -1;
             double bestConnectivity = -1;
 
             for (size_t c = 0; c < clusters.size(); c++) {
-                // Find head satellite
                 std::shared_ptr<Satellite> headSat = nullptr;
                 for (const auto& sat : satellites) {
                     if (sat->getId() == clusters[c].headId) {
@@ -230,14 +220,12 @@ void HierarchicalRouting::formClusters(const std::vector<std::shared_ptr<Node>>&
                 }
 
                 if (headSat && satellites[i]->canCommunicateWith(headSat)) {
-                    // We can connect directly to this cluster head
                     double connectivity = 1.0;
                     if (connectivity > bestConnectivity) {
                         bestConnectivity = connectivity;
                         bestCluster = static_cast<int>(c);
                     }
                 } else {
-                    // Check if we can connect to any member of this cluster
                     for (int memberId : clusters[c].memberIds) {
                         std::shared_ptr<Satellite> memberSat = nullptr;
                         for (const auto& sat : satellites) {
@@ -248,7 +236,7 @@ void HierarchicalRouting::formClusters(const std::vector<std::shared_ptr<Node>>&
                         }
 
                         if (memberSat && satellites[i]->canCommunicateWith(memberSat)) {
-                            double connectivity = 0.5; // Lower priority than connecting to head
+                            double connectivity = 0.5;
                             if (connectivity > bestConnectivity) {
                                 bestConnectivity = connectivity;
                                 bestCluster = static_cast<int>(c);
@@ -263,7 +251,6 @@ void HierarchicalRouting::formClusters(const std::vector<std::shared_ptr<Node>>&
                 clusters[bestCluster].memberIds.push_back(satellites[i]->getId());
                 assigned[i] = true;
             } else {
-                // Create a new single-satellite cluster
                 Cluster newCluster;
                 newCluster.headId = satellites[i]->getId();
                 clusters.push_back(newCluster);
@@ -272,11 +259,10 @@ void HierarchicalRouting::formClusters(const std::vector<std::shared_ptr<Node>>&
         }
     }
 
-    // Log cluster statistics
     std::cout << "Formed " << clusters.size() << " clusters" << std::endl;
     int totalAssigned = 0;
     for (const auto& cluster : clusters) {
-        totalAssigned += 1 + static_cast<int>(cluster.memberIds.size()); // Head + members
+        totalAssigned += 1 + static_cast<int>(cluster.memberIds.size());
         std::cout << "Cluster with head " << cluster.headId << " has "
                   << cluster.memberIds.size() << " members" << std::endl;
     }
@@ -310,44 +296,35 @@ std::shared_ptr<Node> HierarchicalRouting::findNodeById(int id, const std::vecto
 void HierarchicalRouting::identifyGateways(const std::vector<std::shared_ptr<Node>>& allNodes) {
     gateways.clear();
 
-    // For each pair of clusters
     for (size_t c1 = 0; c1 < clusters.size(); c1++) {
         for (size_t c2 = c1 + 1; c2 < clusters.size(); c2++) {
-            // Get all nodes in first cluster
             std::vector<int> cluster1Nodes = {clusters[c1].headId};
             cluster1Nodes.insert(cluster1Nodes.end(),
                                 clusters[c1].memberIds.begin(),
                                 clusters[c1].memberIds.end());
 
-            // Get all nodes in second cluster
             std::vector<int> cluster2Nodes = {clusters[c2].headId};
             cluster2Nodes.insert(cluster2Nodes.end(),
                                 clusters[c2].memberIds.begin(),
                                 clusters[c2].memberIds.end());
 
-            // Find the best gateway nodes between these clusters
             for (int node1Id : cluster1Nodes) {
                 std::shared_ptr<Node> node1 = findNodeById(node1Id, allNodes);
                 if (!node1) continue;
 
-                // Skip if node1 is a ground station
                 if (std::dynamic_pointer_cast<GroundStation>(node1)) continue;
 
                 for (int node2Id : cluster2Nodes) {
                     std::shared_ptr<Node> node2 = findNodeById(node2Id, allNodes);
                     if (!node2) continue;
 
-                    // Skip if node2 is a ground station
                     if (std::dynamic_pointer_cast<GroundStation>(node2)) continue;
 
                     if (node1->canCommunicateWith(node2)) {
-                        // These nodes can communicate directly between clusters
 
-                        // Calculate quality metric (here using distance)
                         double distance = node1->getPosition().distanceTo(node2->getPosition());
-                        double quality = 1.0 / (1.0 + distance); // Higher is better
+                        double quality = 1.0 / (1.0 + distance);
 
-                        // Add both directions
                         gateways.push_back({static_cast<int>(c1), static_cast<int>(c2), node1Id, quality});
                         gateways.push_back({static_cast<int>(c2), static_cast<int>(c1), node2Id, quality});
                     }
@@ -356,7 +333,6 @@ void HierarchicalRouting::identifyGateways(const std::vector<std::shared_ptr<Nod
         }
     }
 
-    // Sort gateways by quality for each cluster pair
     std::ranges::sort(gateways.begin(), gateways.end(),
               [](const auto& a, const auto& b) {
                   if (a.sourceClusterId == b.sourceClusterId &&
@@ -376,10 +352,8 @@ std::shared_ptr<Node> HierarchicalRouting::findFallbackRoute(
     const std::shared_ptr<Node>& destinationNode,
     const std::vector<std::shared_ptr<Node>>& allNodes) {
 
-    // Static routing history to prevent loops
     static std::map<int, std::set<int>> visitedNodes;
 
-    // Reset history for new packets
     if (packet.getId() != lastPacketId) {
         visitedNodes[packet.getId()] = {currentNode->getId()};
         lastPacketId = packet.getId();
@@ -387,7 +361,6 @@ std::shared_ptr<Node> HierarchicalRouting::findFallbackRoute(
         visitedNodes[packet.getId()].insert(currentNode->getId());
     }
 
-    // First try: Look for nodes that reduce distance and have high connectivity
     std::shared_ptr<Node> bestNode = nullptr;
     double bestScore = std::numeric_limits<double>::lowest();
     double currentDistance = currentNode->getPosition().distanceTo(destinationNode->getPosition());
@@ -399,7 +372,6 @@ std::shared_ptr<Node> HierarchicalRouting::findFallbackRoute(
             continue;
         }
 
-        // Skip ground stations as intermediate hops unless they're the destination
         if (std::dynamic_pointer_cast<GroundStation>(node) &&
             node->getId() != destinationNode->getId()) {
             continue;
@@ -407,19 +379,14 @@ std::shared_ptr<Node> HierarchicalRouting::findFallbackRoute(
 
         double distance = node->getPosition().distanceTo(destinationNode->getPosition());
 
-        // Count connectivity (how many other nodes this node can reach)
         int connectivity = 0;
         for (const auto& otherNode : allNodes) {
             if (otherNode->getId() != node->getId() && node->canCommunicateWith(otherNode)) {
                 connectivity++;
             }
         }
-
-        // Calculate score: prefer nodes that:
-        // 1. Reduce distance to destination
-        // 2. Have good connectivity with other nodes
         double distanceImprovement = currentDistance - distance;
-        double score = distanceImprovement + (connectivity * 0.1); // Weighted sum
+        double score = distanceImprovement + (connectivity * 0.1);
 
         if (score > bestScore) {
             bestScore = score;
@@ -427,12 +394,10 @@ std::shared_ptr<Node> HierarchicalRouting::findFallbackRoute(
         }
     }
 
-    // If we found a node that improves our position, use it
     if (bestNode && bestScore > 0) {
         return bestNode;
     }
 
-    // Second attempt: If no node reduces distance, just pick the one with highest connectivity
     bestNode = nullptr;
     int bestConnectivity = -1;
 
@@ -443,7 +408,6 @@ std::shared_ptr<Node> HierarchicalRouting::findFallbackRoute(
             continue;
         }
 
-        // Skip ground stations as intermediate hops
         if (std::dynamic_pointer_cast<GroundStation>(node) &&
             node->getId() != destinationNode->getId()) {
             continue;

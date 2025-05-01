@@ -1,10 +1,10 @@
-# 0 "/home/luka_mumladze/CLionProjects/LEO/src/SimulationEngine.cpp"
-# 1 "/home/luka_mumladze/CLionProjects/LEO/cmake-build-debug//"
+# 0 "/home/luka_mumladze/Thesis (3)/LEO/src/SimulationEngine.cpp"
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug//"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/SimulationEngine.cpp"
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/SimulationEngine.cpp"
 # 1 "/usr/include/c++/14.2.0/iostream" 1 3
 # 36 "/usr/include/c++/14.2.0/iostream" 3
        
@@ -43293,17 +43293,17 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 2 "/home/luka_mumladze/CLionProjects/LEO/src/SimulationEngine.cpp" 2
+# 2 "/home/luka_mumladze/Thesis (3)/LEO/src/SimulationEngine.cpp" 2
 
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/simulation_engine.h" 1
-
-
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/orbit_params.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/simulation_engine.h" 1
 
 
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/orbit_params.h" 1
 
 
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/orbit_params.h"
+
+
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/orbit_params.h"
 struct OrbitParams {
     double semiMajorAxis;
     double eccentricity;
@@ -43323,7 +43323,7 @@ struct OrbitParams {
 
 
 };
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/simulation_engine.h" 2
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/simulation_engine.h" 2
 # 1 "/usr/include/c++/14.2.0/memory" 1 3
 # 47 "/usr/include/c++/14.2.0/memory" 3
        
@@ -55260,17 +55260,17 @@ uninitialized_value_construct_n(_ExecutionPolicy&& __exec, _ForwardIterator __fi
 
 }
 # 172 "/usr/include/c++/14.2.0/memory" 2 3
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/simulation_engine.h" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h" 1
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/simulation_engine.h" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h" 1
 
 
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/packet.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/packet.h" 1
 
 
 
 
 
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/packet.h"
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/packet.h"
 class Packet {
 public:
     Packet(int id, int sourceId, int destinationId, double creationTime, int size = 1);
@@ -55290,12 +55290,12 @@ private:
     int size;
     int hopCount;
 };
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/node.h" 1
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/node.h" 1
 
 
 
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/position.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/position.h" 1
 
 
 
@@ -55308,7 +55308,7 @@ struct Position {
     Position(double x, double y, double z);
     [[nodiscard]] double distanceTo(const Position &other) const;
 };
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/node.h" 2
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/node.h" 2
 class Node {
 public:
     Node(int id, const Position& pos);
@@ -55329,7 +55329,7 @@ protected:
     Position position_;
     double elapsedTime = 0.0;
 };
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h" 2
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h" 2
 # 1 "/usr/include/c++/14.2.0/vector" 1 3
 # 58 "/usr/include/c++/14.2.0/vector" 3
        
@@ -59286,11 +59286,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 }
-# 6 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h" 2
+# 6 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h" 2
 
 
 
-# 8 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h"
+# 8 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h"
 class RoutingAlgorithm {
 public:
     virtual ~RoutingAlgorithm() = default;
@@ -59301,8 +59301,8 @@ public:
          const std::vector<std::shared_ptr<Node>>& allNodes) = 0;
     [[nodiscard]] virtual std::string getName() const = 0;
 };
-# 6 "/home/luka_mumladze/CLionProjects/LEO/src/../include/simulation_engine.h" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/flow_analyzer.h" 1
+# 6 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/simulation_engine.h" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/flow_analyzer.h" 1
 
 
 
@@ -59345,7 +59345,7 @@ public:
 
     void reset();
 };
-# 7 "/home/luka_mumladze/CLionProjects/LEO/src/../include/simulation_engine.h" 2
+# 7 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/simulation_engine.h" 2
 
 class SimulationEngine {
 public:
@@ -59371,6 +59371,7 @@ public:
     void updateNodes(double customTimeStep) const;
 
 private:
+    bool flag;
     double timeStep;
     double currentTime;
     int nextPacketId;
@@ -59392,8 +59393,8 @@ private:
 
     std::shared_ptr<Node> findNodeById(int id) const;
 };
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/SimulationEngine.cpp" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/satellite.h" 1
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/SimulationEngine.cpp" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/satellite.h" 1
 
 
 
@@ -59420,8 +59421,8 @@ private:
 
     void updatePosition();
 };
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/SimulationEngine.cpp" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/ground_station.h" 1
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/SimulationEngine.cpp" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/ground_station.h" 1
 
 
 
@@ -59433,20 +59434,20 @@ public:
     [[nodiscard]] bool canCommunicateWith(const std::shared_ptr<Node>& other) const override;
 
     void update(double timeStep) override;
-    [[nodiscard]] double debugElevation(const Position& satPosition) const;
     [[nodiscard]] double getElevationMask() const;
     [[nodiscard]] double getElapsedTime() const override;
+    [[nodiscard]] double debugElevation(const Position& satPosition) const;
 
 private:
     double elevationMask_;
     [[nodiscard]] double calculateElevation(const Position& satPosition) const;
 };
-# 6 "/home/luka_mumladze/CLionProjects/LEO/src/SimulationEngine.cpp" 2
+# 6 "/home/luka_mumladze/Thesis (3)/LEO/src/SimulationEngine.cpp" 2
 
 SimulationEngine::SimulationEngine(double timeStep)
-    : timeStep(timeStep), currentTime(0.0), nextPacketId(0) {}
+    : timeStep(timeStep), currentTime(0.0), nextPacketId(0),flag(true) {}
 SimulationEngine::ActivePacket::ActivePacket()
-    : packet(0, 0, 0, 0.0), currentNode(nullptr) {}
+    : packet(0, 0, 0, 0.0), currentNode(nullptr){}
 void SimulationEngine::addSatellite(const OrbitParams& params) {
     int id = static_cast<int>(nodes.size());
     auto satellite = std::make_shared<Satellite>(id, params);
@@ -59483,7 +59484,7 @@ void SimulationEngine::generatePacket(int sourceId, int destinationId) {
 
 void SimulationEngine::run(double duration) {
     double endTime = currentTime + duration;
-
+    flag =true;
     while (currentTime < endTime) {
         updateNodes();
 
@@ -59496,7 +59497,6 @@ void SimulationEngine::run(double duration) {
 
 void SimulationEngine::routePackets() {
     std::vector<ActivePacket> stillActivePackets;
-
 
     double smallTimeStep = timeStep / (activePackets_.size() > 0 ? activePackets_.size() : 1);
 
@@ -59520,17 +59520,13 @@ void SimulationEngine::routePackets() {
             continue;
         }
 
-
         std::shared_ptr<Node> nextHop = routingAlgorithm->findNextHop(
             activePacket.packet,
             activePacket.currentNode,
             nodes
         );
-
         if (!nextHop) {
-
             double timeInSystem = currentTime - activePacket.packet.getCreationTime();
-
 
             if (timeInSystem > 3600.0) {
                 flowAnalyzer.recordFailure(
@@ -59545,11 +59541,18 @@ void SimulationEngine::routePackets() {
             updatedPacket.currentNode = nextHop;
             updatedPacket.path.push_back(nextHop->getId());
 
+          updatedPacket.packet.incrementHopCount();
+
             if (auto satNextHop = std::dynamic_pointer_cast<Satellite>(nextHop)) {
+                if (routingAlgorithm->getName()== "Direct Routing" && updatedPacket.packet.getHopCount() >1 ) {
+                    flowAnalyzer.recordFailure(
+                activePacket.packet,
+        "can't communicate directly"
+                );
+                    flag = false;
+                }
                 if (routingAlgorithm->getName() == "Store-and-Forward Routing") {
-
                     if (!satNextHop->storePacket(activePacket.packet)) {
-
                         flowAnalyzer.recordFailure(
                             activePacket.packet,
                             "Satellite buffer full"
@@ -59558,21 +59561,24 @@ void SimulationEngine::routePackets() {
                     }
                 }
             }
-
-            stillActivePackets.push_back(updatedPacket);
+            if (flag) {
+                stillActivePackets.push_back(updatedPacket);
+            }else {
+                flag = true;
+            }
         }
-
 
         updateNodes(smallTimeStep);
     }
-
 
     activePackets_ = stillActivePackets;
 }
 
 void SimulationEngine::updateNodes() const{
-    for (auto& node : nodes) {
-        node->update(timeStep);
+    if (flag) {
+        for (auto& node : nodes) {
+            node->update(timeStep);
+        }
     }
 }
 

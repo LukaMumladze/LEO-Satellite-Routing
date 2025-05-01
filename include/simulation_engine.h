@@ -29,6 +29,7 @@ public:
     void updateNodes(double customTimeStep) const;
 
 private:
+    bool flag;
     double timeStep;
     double currentTime;
     int nextPacketId;

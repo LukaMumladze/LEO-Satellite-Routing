@@ -1,7 +1,3 @@
-//
-// Created by luka_mumladze on 4/18/25.
-//
-
 #ifndef DIRECT_ROUTING_H
 #define DIRECT_ROUTING_H
 #include "routing_algorithm.h"

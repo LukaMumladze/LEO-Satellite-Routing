@@ -1,4 +1,4 @@
-/app/extra/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/app/extra/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/luka_mumladze/CLionProjects/LEO -B /home/luka_mumladze/CLionProjects/LEO/cmake-build-debug
+/app/extra/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/app/extra/clion/bin/ninja/linux/x64/ninja -G Ninja -S "/home/luka_mumladze/Thesis (3)/LEO" -B "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug"
 -- The C compiler identification is GNU 14.2.0
 -- The CXX compiler identification is GNU 14.2.0
 -- Detecting C compiler ABI info
@@ -11,6 +11,9 @@
 -- Check for working CXX compiler: /usr/bin/c++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Configuring done (0.3s)
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Configuring done (0.8s)
 -- Generating done (0.0s)
--- Build files have been written to: /home/luka_mumladze/CLionProjects/LEO/cmake-build-debug
+-- Build files have been written to: /home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug

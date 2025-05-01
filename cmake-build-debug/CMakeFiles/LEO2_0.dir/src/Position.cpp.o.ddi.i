@@ -1,11 +1,11 @@
-# 0 "/home/luka_mumladze/CLionProjects/LEO/src/Position.cpp"
-# 1 "/home/luka_mumladze/CLionProjects/LEO/cmake-build-debug//"
+# 0 "/home/luka_mumladze/Thesis (3)/LEO/src/Position.cpp"
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug//"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/Position.cpp"
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/position.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/Position.cpp"
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/position.h" 1
 
 
 
@@ -18,7 +18,7 @@ struct Position {
     Position(double x, double y, double z);
     [[nodiscard]] double distanceTo(const Position &other) const;
 };
-# 2 "/home/luka_mumladze/CLionProjects/LEO/src/Position.cpp" 2
+# 2 "/home/luka_mumladze/Thesis (3)/LEO/src/Position.cpp" 2
 # 1 "/usr/include/c++/14.2.0/cmath" 1 3
 # 39 "/usr/include/c++/14.2.0/cmath" 3
        
@@ -25603,10 +25603,10 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 3 "/home/luka_mumladze/CLionProjects/LEO/src/Position.cpp" 2
+# 3 "/home/luka_mumladze/Thesis (3)/LEO/src/Position.cpp" 2
 
 
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/Position.cpp"
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/Position.cpp"
 Position:: Position(double x, double y, double z) {
     this->x = x;
     this->y = y;

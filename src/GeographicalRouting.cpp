@@ -7,14 +7,11 @@
 std::shared_ptr<Node> GeographicRouting::findNextHop(const Packet& packet,
                                                     const std::shared_ptr<Node>& currentNode,
                                                     const std::vector<std::shared_ptr<Node>>& allNodes) {
-    // Create a set to track visited nodes for this packet
-    // (You'll need to make this persistent across calls for the same packet)
+
     static std::map<int, std::set<int>> visitedNodes;
 
-    // Add current node to visited nodes for this packet
     visitedNodes[packet.getId()].insert(currentNode->getId());
 
-    // Find destination node
     std::shared_ptr<Node> destinationNode = nullptr;
     for (const auto& node : allNodes) {
         if (node->getId() == packet.getDestinationId()) {
@@ -43,15 +40,13 @@ std::shared_ptr<Node> GeographicRouting::findNextHop(const Packet& packet,
             continue;
         }
 
-        // Skip already visited nodes to prevent loops
         if (visitedNodes[packet.getId()].count(node->getId()) > 0) {
             continue;
         }
 
-        // Skip ground stations as intermediate hops
         auto groundStation = std::dynamic_pointer_cast<GroundStation>(node);
         if (groundStation && node->getId() != packet.getDestinationId()) {
-            continue;  // Skip ground stations unless they're the destination
+            continue;
         }
 
         double distanceToDest = node->getPosition().distanceTo(destinationNode->getPosition());

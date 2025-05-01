@@ -1,10 +1,10 @@
-# 0 "/home/luka_mumladze/CLionProjects/LEO/src/HierarchicalRouting.cpp"
-# 1 "/home/luka_mumladze/CLionProjects/LEO/cmake-build-debug//"
+# 0 "/home/luka_mumladze/Thesis (3)/LEO/src/HierarchicalRouting.cpp"
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug//"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/HierarchicalRouting.cpp"
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/HierarchicalRouting.cpp"
 # 1 "/usr/include/c++/14.2.0/algorithm" 1 3
 # 58 "/usr/include/c++/14.2.0/algorithm" 3
        
@@ -28360,7 +28360,7 @@ lexicographical_compare(_ExecutionPolicy&& __exec, _ForwardIterator1 __first1, _
 
 }
 # 86 "/usr/include/c++/14.2.0/algorithm" 2 3
-# 2 "/home/luka_mumladze/CLionProjects/LEO/src/HierarchicalRouting.cpp" 2
+# 2 "/home/luka_mumladze/Thesis (3)/LEO/src/HierarchicalRouting.cpp" 2
 # 1 "/usr/include/c++/14.2.0/iostream" 1 3
 # 36 "/usr/include/c++/14.2.0/iostream" 3
        
@@ -53913,7 +53913,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 3 "/home/luka_mumladze/CLionProjects/LEO/src/HierarchicalRouting.cpp" 2
+# 3 "/home/luka_mumladze/Thesis (3)/LEO/src/HierarchicalRouting.cpp" 2
 # 1 "/usr/include/c++/14.2.0/limits" 1 3
 # 40 "/usr/include/c++/14.2.0/limits" 3
        
@@ -55553,7 +55553,7 @@ __extension__ template<> struct numeric_limits<_Float128> { static constexpr boo
 
 
 }
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/HierarchicalRouting.cpp" 2
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/HierarchicalRouting.cpp" 2
 # 1 "/usr/include/c++/14.2.0/map" 1 3
 # 58 "/usr/include/c++/14.2.0/map" 3
        
@@ -60120,7 +60120,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 }
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/HierarchicalRouting.cpp" 2
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/HierarchicalRouting.cpp" 2
 # 1 "/usr/include/c++/14.2.0/set" 1 3
 # 58 "/usr/include/c++/14.2.0/set" 3
        
@@ -61332,21 +61332,21 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 }
-# 6 "/home/luka_mumladze/CLionProjects/LEO/src/HierarchicalRouting.cpp" 2
+# 6 "/home/luka_mumladze/Thesis (3)/LEO/src/HierarchicalRouting.cpp" 2
 
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/hierarchical_routing.h" 1
-
-
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/hierarchical_routing.h" 1
 
 
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/packet.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h" 1
 
 
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/packet.h" 1
 
 
 
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/packet.h"
+
+
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/packet.h"
 class Packet {
 public:
     Packet(int id, int sourceId, int destinationId, double creationTime, int size = 1);
@@ -61366,8 +61366,8 @@ private:
     int size;
     int hopCount;
 };
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/node.h" 1
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/node.h" 1
 
 
 # 1 "/usr/include/c++/14.2.0/memory" 1 3
@@ -72357,13 +72357,13 @@ uninitialized_value_construct_n(_ExecutionPolicy&& __exec, _ForwardIterator __fi
 
 }
 # 172 "/usr/include/c++/14.2.0/memory" 2 3
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/node.h" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/position.h" 1
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/node.h" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/position.h" 1
 
 
 
 
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/position.h"
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/position.h"
 struct Position {
     double x;
     double y;
@@ -72373,7 +72373,7 @@ struct Position {
     Position(double x, double y, double z);
     [[nodiscard]] double distanceTo(const Position &other) const;
 };
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/node.h" 2
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/node.h" 2
 class Node {
 public:
     Node(int id, const Position& pos);
@@ -72394,7 +72394,7 @@ protected:
     Position position_;
     double elapsedTime = 0.0;
 };
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h" 2
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h" 2
 # 1 "/usr/include/c++/14.2.0/vector" 1 3
 # 58 "/usr/include/c++/14.2.0/vector" 3
        
@@ -76351,11 +76351,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 }
-# 6 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h" 2
+# 6 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h" 2
 
 
 
-# 8 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h"
+# 8 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h"
 class RoutingAlgorithm {
 public:
     virtual ~RoutingAlgorithm() = default;
@@ -76366,7 +76366,7 @@ public:
          const std::vector<std::shared_ptr<Node>>& allNodes) = 0;
     [[nodiscard]] virtual std::string getName() const = 0;
 };
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/hierarchical_routing.h" 2
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/hierarchical_routing.h" 2
 
 class HierarchicalRouting : public RoutingAlgorithm {
 public:
@@ -76378,6 +76378,7 @@ public:
     };
 
     explicit HierarchicalRouting(double clusterRadius = 2000.0, double reclusterInterval = 300.0);
+    void formClusters(const std::vector<std::shared_ptr<Node>>& allNodes);
 
     std::shared_ptr<Node> findNextHop(const Packet& packet, const std::shared_ptr<Node>& currentNode,
         const std::vector<std::shared_ptr<Node>>& allNodes) override;
@@ -76410,10 +76411,9 @@ private:
     double reclusterInterval;
     double lastReclusterTime;
 
-    void formClusters(const std::vector<std::shared_ptr<Node>>& allNodes);
 };
-# 8 "/home/luka_mumladze/CLionProjects/LEO/src/HierarchicalRouting.cpp" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/geographical_routing.h" 1
+# 8 "/home/luka_mumladze/Thesis (3)/LEO/src/HierarchicalRouting.cpp" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/geographical_routing.h" 1
 
 
 
@@ -76424,8 +76424,8 @@ public :
         const std::vector<std::shared_ptr<Node>>& allNodes) override;
     [[nodiscard]] std::string getName() const override;
 };
-# 9 "/home/luka_mumladze/CLionProjects/LEO/src/HierarchicalRouting.cpp" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/ground_station.h" 1
+# 9 "/home/luka_mumladze/Thesis (3)/LEO/src/HierarchicalRouting.cpp" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/ground_station.h" 1
 
 
 
@@ -76437,21 +76437,21 @@ public:
     [[nodiscard]] bool canCommunicateWith(const std::shared_ptr<Node>& other) const override;
 
     void update(double timeStep) override;
-    [[nodiscard]] double debugElevation(const Position& satPosition) const;
     [[nodiscard]] double getElevationMask() const;
     [[nodiscard]] double getElapsedTime() const override;
+    [[nodiscard]] double debugElevation(const Position& satPosition) const;
 
 private:
     double elevationMask_;
     [[nodiscard]] double calculateElevation(const Position& satPosition) const;
 };
-# 10 "/home/luka_mumladze/CLionProjects/LEO/src/HierarchicalRouting.cpp" 2
+# 10 "/home/luka_mumladze/Thesis (3)/LEO/src/HierarchicalRouting.cpp" 2
 
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/satellite.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/satellite.h" 1
 
 
 
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/orbit_params.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/orbit_params.h" 1
 
 
 
@@ -76474,7 +76474,7 @@ struct OrbitParams {
 
 
 };
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/satellite.h" 2
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/satellite.h" 2
 
 
 class Satellite: public Node {
@@ -76497,7 +76497,7 @@ private:
 
     void updatePosition();
 };
-# 12 "/home/luka_mumladze/CLionProjects/LEO/src/HierarchicalRouting.cpp" 2
+# 12 "/home/luka_mumladze/Thesis (3)/LEO/src/HierarchicalRouting.cpp" 2
 
 
 HierarchicalRouting::HierarchicalRouting(double clusterRadius, double reclusterInterval)
@@ -76647,7 +76647,6 @@ std::string HierarchicalRouting:: getName() const { return "Hierarchical Routing
 void HierarchicalRouting::formClusters(const std::vector<std::shared_ptr<Node>>& allNodes) {
     clusters.clear();
 
-
     std::vector<std::shared_ptr<Satellite>> satellites;
     for (const auto& node : allNodes) {
         if (auto sat = std::dynamic_pointer_cast<Satellite>(node)) {
@@ -76656,7 +76655,6 @@ void HierarchicalRouting::formClusters(const std::vector<std::shared_ptr<Node>>&
     }
 
     if (satellites.empty()) return;
-
 
     std::vector<std::pair<int, int>> connectivityScores;
     for (size_t i = 0; i < satellites.size(); i++) {
@@ -76669,26 +76667,21 @@ void HierarchicalRouting::formClusters(const std::vector<std::shared_ptr<Node>>&
         connectivityScores.push_back({static_cast<int>(i), connections});
     }
 
-
     std::ranges::sort(connectivityScores.begin(), connectivityScores.end(),
               [](const auto& a, const auto& b) { return a.second > b.second; });
 
-
     std::vector<bool> assigned(satellites.size(), false);
-
 
     int numHeads = std::max(1, static_cast<int>(satellites.size() * 0.2));
 
     for (int h = 0; h < numHeads && h < static_cast<int>(connectivityScores.size()); h++) {
         int headIndex = connectivityScores[h].first;
 
-
         if (assigned[headIndex]) continue;
 
         Cluster newCluster;
         newCluster.headId = satellites[headIndex]->getId();
         assigned[headIndex] = true;
-
 
         for (size_t j = 0; j < satellites.size(); j++) {
             if (static_cast<int>(j) != headIndex && !assigned[j] &&
@@ -76701,15 +76694,12 @@ void HierarchicalRouting::formClusters(const std::vector<std::shared_ptr<Node>>&
         clusters.push_back(newCluster);
     }
 
-
     for (size_t i = 0; i < satellites.size(); i++) {
         if (!assigned[i]) {
-
             int bestCluster = -1;
             double bestConnectivity = -1;
 
             for (size_t c = 0; c < clusters.size(); c++) {
-
                 std::shared_ptr<Satellite> headSat = nullptr;
                 for (const auto& sat : satellites) {
                     if (sat->getId() == clusters[c].headId) {
@@ -76719,14 +76709,12 @@ void HierarchicalRouting::formClusters(const std::vector<std::shared_ptr<Node>>&
                 }
 
                 if (headSat && satellites[i]->canCommunicateWith(headSat)) {
-
                     double connectivity = 1.0;
                     if (connectivity > bestConnectivity) {
                         bestConnectivity = connectivity;
                         bestCluster = static_cast<int>(c);
                     }
                 } else {
-
                     for (int memberId : clusters[c].memberIds) {
                         std::shared_ptr<Satellite> memberSat = nullptr;
                         for (const auto& sat : satellites) {
@@ -76752,7 +76740,6 @@ void HierarchicalRouting::formClusters(const std::vector<std::shared_ptr<Node>>&
                 clusters[bestCluster].memberIds.push_back(satellites[i]->getId());
                 assigned[i] = true;
             } else {
-
                 Cluster newCluster;
                 newCluster.headId = satellites[i]->getId();
                 clusters.push_back(newCluster);
@@ -76760,7 +76747,6 @@ void HierarchicalRouting::formClusters(const std::vector<std::shared_ptr<Node>>&
             }
         }
     }
-
 
     std::cout << "Formed " << clusters.size() << " clusters" << std::endl;
     int totalAssigned = 0;
@@ -76799,26 +76785,21 @@ std::shared_ptr<Node> HierarchicalRouting::findNodeById(int id, const std::vecto
 void HierarchicalRouting::identifyGateways(const std::vector<std::shared_ptr<Node>>& allNodes) {
     gateways.clear();
 
-
     for (size_t c1 = 0; c1 < clusters.size(); c1++) {
         for (size_t c2 = c1 + 1; c2 < clusters.size(); c2++) {
-
             std::vector<int> cluster1Nodes = {clusters[c1].headId};
             cluster1Nodes.insert(cluster1Nodes.end(),
                                 clusters[c1].memberIds.begin(),
                                 clusters[c1].memberIds.end());
-
 
             std::vector<int> cluster2Nodes = {clusters[c2].headId};
             cluster2Nodes.insert(cluster2Nodes.end(),
                                 clusters[c2].memberIds.begin(),
                                 clusters[c2].memberIds.end());
 
-
             for (int node1Id : cluster1Nodes) {
                 std::shared_ptr<Node> node1 = findNodeById(node1Id, allNodes);
                 if (!node1) continue;
-
 
                 if (std::dynamic_pointer_cast<GroundStation>(node1)) continue;
 
@@ -76826,16 +76807,12 @@ void HierarchicalRouting::identifyGateways(const std::vector<std::shared_ptr<Nod
                     std::shared_ptr<Node> node2 = findNodeById(node2Id, allNodes);
                     if (!node2) continue;
 
-
                     if (std::dynamic_pointer_cast<GroundStation>(node2)) continue;
 
                     if (node1->canCommunicateWith(node2)) {
 
-
-
                         double distance = node1->getPosition().distanceTo(node2->getPosition());
                         double quality = 1.0 / (1.0 + distance);
-
 
                         gateways.push_back({static_cast<int>(c1), static_cast<int>(c2), node1Id, quality});
                         gateways.push_back({static_cast<int>(c2), static_cast<int>(c1), node2Id, quality});
@@ -76844,7 +76821,6 @@ void HierarchicalRouting::identifyGateways(const std::vector<std::shared_ptr<Nod
             }
         }
     }
-
 
     std::ranges::sort(gateways.begin(), gateways.end(),
               [](const auto& a, const auto& b) {
@@ -76865,9 +76841,7 @@ std::shared_ptr<Node> HierarchicalRouting::findFallbackRoute(
     const std::shared_ptr<Node>& destinationNode,
     const std::vector<std::shared_ptr<Node>>& allNodes) {
 
-
     static std::map<int, std::set<int>> visitedNodes;
-
 
     if (packet.getId() != lastPacketId) {
         visitedNodes[packet.getId()] = {currentNode->getId()};
@@ -76875,7 +76849,6 @@ std::shared_ptr<Node> HierarchicalRouting::findFallbackRoute(
     } else {
         visitedNodes[packet.getId()].insert(currentNode->getId());
     }
-
 
     std::shared_ptr<Node> bestNode = nullptr;
     double bestScore = std::numeric_limits<double>::lowest();
@@ -76888,7 +76861,6 @@ std::shared_ptr<Node> HierarchicalRouting::findFallbackRoute(
             continue;
         }
 
-
         if (std::dynamic_pointer_cast<GroundStation>(node) &&
             node->getId() != destinationNode->getId()) {
             continue;
@@ -76896,17 +76868,12 @@ std::shared_ptr<Node> HierarchicalRouting::findFallbackRoute(
 
         double distance = node->getPosition().distanceTo(destinationNode->getPosition());
 
-
         int connectivity = 0;
         for (const auto& otherNode : allNodes) {
             if (otherNode->getId() != node->getId() && node->canCommunicateWith(otherNode)) {
                 connectivity++;
             }
         }
-
-
-
-
         double distanceImprovement = currentDistance - distance;
         double score = distanceImprovement + (connectivity * 0.1);
 
@@ -76916,11 +76883,9 @@ std::shared_ptr<Node> HierarchicalRouting::findFallbackRoute(
         }
     }
 
-
     if (bestNode && bestScore > 0) {
         return bestNode;
     }
-
 
     bestNode = nullptr;
     int bestConnectivity = -1;
@@ -76931,7 +76896,6 @@ std::shared_ptr<Node> HierarchicalRouting::findFallbackRoute(
             visitedNodes[packet.getId()].count(node->getId()) > 0) {
             continue;
         }
-
 
         if (std::dynamic_pointer_cast<GroundStation>(node) &&
             node->getId() != destinationNode->getId()) {

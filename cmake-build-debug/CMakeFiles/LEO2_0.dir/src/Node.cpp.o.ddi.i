@@ -1,11 +1,11 @@
-# 0 "/home/luka_mumladze/CLionProjects/LEO/src/Node.cpp"
-# 1 "/home/luka_mumladze/CLionProjects/LEO/cmake-build-debug//"
+# 0 "/home/luka_mumladze/Thesis (3)/LEO/src/Node.cpp"
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug//"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/Node.cpp"
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/node.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/Node.cpp"
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/node.h" 1
 
 
 # 1 "/usr/include/c++/14.2.0/memory" 1 3
@@ -53607,13 +53607,13 @@ uninitialized_value_construct_n(_ExecutionPolicy&& __exec, _ForwardIterator __fi
 
 }
 # 172 "/usr/include/c++/14.2.0/memory" 2 3
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/node.h" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/position.h" 1
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/node.h" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/position.h" 1
 
 
 
 
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/position.h"
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/position.h"
 struct Position {
     double x;
     double y;
@@ -53623,7 +53623,7 @@ struct Position {
     Position(double x, double y, double z);
     [[nodiscard]] double distanceTo(const Position &other) const;
 };
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/node.h" 2
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/node.h" 2
 class Node {
 public:
     Node(int id, const Position& pos);
@@ -53644,7 +53644,7 @@ protected:
     Position position_;
     double elapsedTime = 0.0;
 };
-# 2 "/home/luka_mumladze/CLionProjects/LEO/src/Node.cpp" 2
+# 2 "/home/luka_mumladze/Thesis (3)/LEO/src/Node.cpp" 2
 
 Node:: Node(int id, const Position& pos):_id(id), position_(pos){}
 

@@ -12,8 +12,8 @@ struct OrbitParams {
 
 
     explicit OrbitParams(double semiMajorAxis = 7000.0,
-        double eccentricity = 0.0,      // Circular orbit by default
-        double inclination = 0.0,       // Equatorial orbit by default
+        double eccentricity = 0.0,
+        double inclination = 0.0,
         double longitudeAscending = 0.0,
         double argumentOfPeriapsis = 0.0,
         double trueAnomaly = 0.0);

@@ -12,6 +12,7 @@ public:
     [[nodiscard]] std::string getName() const override;
     void clearHistory(int packetId);
     void printRoutingStats() const;
+    static void clearStats();
 private:
     std::map<int, std::set<int>> packetHistory;
     std::map<int, std::set<int>> visitedNodes;

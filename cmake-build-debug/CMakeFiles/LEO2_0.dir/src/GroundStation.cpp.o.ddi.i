@@ -1,14 +1,14 @@
-# 0 "/home/luka_mumladze/CLionProjects/LEO/src/GroundStation.cpp"
-# 1 "/home/luka_mumladze/CLionProjects/LEO/cmake-build-debug//"
+# 0 "/home/luka_mumladze/Thesis (3)/LEO/src/GroundStation.cpp"
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug//"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/GroundStation.cpp"
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/ground_station.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/GroundStation.cpp"
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/ground_station.h" 1
 
 
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/position.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/position.h" 1
 
 
 
@@ -21,8 +21,8 @@ struct Position {
     Position(double x, double y, double z);
     [[nodiscard]] double distanceTo(const Position &other) const;
 };
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/ground_station.h" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/node.h" 1
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/ground_station.h" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/node.h" 1
 
 
 # 1 "/usr/include/c++/14.2.0/memory" 1 3
@@ -53624,10 +53624,10 @@ uninitialized_value_construct_n(_ExecutionPolicy&& __exec, _ForwardIterator __fi
 
 }
 # 172 "/usr/include/c++/14.2.0/memory" 2 3
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/node.h" 2
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/node.h" 2
 
 
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/node.h"
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/node.h"
 class Node {
 public:
     Node(int id, const Position& pos);
@@ -53648,7 +53648,7 @@ protected:
     Position position_;
     double elapsedTime = 0.0;
 };
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/ground_station.h" 2
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/ground_station.h" 2
 
 class GroundStation : public Node{
 public:
@@ -53656,20 +53656,20 @@ public:
     [[nodiscard]] bool canCommunicateWith(const std::shared_ptr<Node>& other) const override;
 
     void update(double timeStep) override;
-    [[nodiscard]] double debugElevation(const Position& satPosition) const;
     [[nodiscard]] double getElevationMask() const;
     [[nodiscard]] double getElapsedTime() const override;
+    [[nodiscard]] double debugElevation(const Position& satPosition) const;
 
 private:
     double elevationMask_;
     [[nodiscard]] double calculateElevation(const Position& satPosition) const;
 };
-# 2 "/home/luka_mumladze/CLionProjects/LEO/src/GroundStation.cpp" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/satellite.h" 1
+# 2 "/home/luka_mumladze/Thesis (3)/LEO/src/GroundStation.cpp" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/satellite.h" 1
 
 
 
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/orbit_params.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/orbit_params.h" 1
 
 
 
@@ -53692,8 +53692,8 @@ struct OrbitParams {
 
 
 };
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/satellite.h" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/packet.h" 1
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/satellite.h" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/packet.h" 1
 
 
 
@@ -53717,7 +53717,7 @@ private:
     int size;
     int hopCount;
 };
-# 6 "/home/luka_mumladze/CLionProjects/LEO/src/../include/satellite.h" 2
+# 6 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/satellite.h" 2
 # 1 "/usr/include/c++/14.2.0/vector" 1 3
 # 58 "/usr/include/c++/14.2.0/vector" 3
        
@@ -57674,9 +57674,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 }
-# 7 "/home/luka_mumladze/CLionProjects/LEO/src/../include/satellite.h" 2
+# 7 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/satellite.h" 2
 
-# 7 "/home/luka_mumladze/CLionProjects/LEO/src/../include/satellite.h"
+# 7 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/satellite.h"
 class Satellite: public Node {
 public:
     Satellite(int id, const OrbitParams& orbitParams);
@@ -57697,7 +57697,7 @@ private:
 
     void updatePosition();
 };
-# 3 "/home/luka_mumladze/CLionProjects/LEO/src/GroundStation.cpp" 2
+# 3 "/home/luka_mumladze/Thesis (3)/LEO/src/GroundStation.cpp" 2
 # 1 "/usr/include/c++/14.2.0/cmath" 1 3
 # 39 "/usr/include/c++/14.2.0/cmath" 3
        
@@ -68385,7 +68385,7 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/GroundStation.cpp" 2
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/GroundStation.cpp" 2
 # 1 "/usr/include/c++/14.2.0/iostream" 1 3
 # 36 "/usr/include/c++/14.2.0/iostream" 3
        
@@ -69971,10 +69971,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/GroundStation.cpp" 2
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/GroundStation.cpp" 2
 
 
-# 6 "/home/luka_mumladze/CLionProjects/LEO/src/GroundStation.cpp"
+# 6 "/home/luka_mumladze/Thesis (3)/LEO/src/GroundStation.cpp"
 GroundStation:: GroundStation(int id, const Position& position, double elevationMask) :
         Node(id, position), elevationMask_(elevationMask) {}
 
@@ -69994,11 +69994,9 @@ bool GroundStation::canCommunicateWith(const std::shared_ptr<Node>& satellite) c
     double satLen = std::sqrt(sat.x * sat.x + sat.y * sat.y + sat.z * sat.z);
     double cosAngle = dot / (groundLen * satLen);
 
-
     if (cosAngle < -0.05) {
         return false;
     }
-
 
     double sinAngle = std::sqrt(1.0 - cosAngle * cosAngle);
     double closestApproach = satLen * sinAngle;
@@ -70007,11 +70005,7 @@ bool GroundStation::canCommunicateWith(const std::shared_ptr<Node>& satellite) c
         return false;
     }
 
-
     double elevation = calculateElevation(sat);
-
-
-
 
 
     if (elevation < elevationMask_) {
@@ -70021,46 +70015,34 @@ bool GroundStation::canCommunicateWith(const std::shared_ptr<Node>& satellite) c
     return true;
 }
 
-
-
-
 double GroundStation::calculateElevation(const Position& satPosition) const {
-
     double gsX = position_.x;
     double gsY = position_.y;
     double gsZ = position_.z;
     double gsRadius = std::sqrt(gsX*gsX + gsY*gsY + gsZ*gsZ);
-
 
     double satX = satPosition.x;
     double satY = satPosition.y;
     double satZ = satPosition.z;
     double satRadius = std::sqrt(satX*satX + satY*satY + satZ*satZ);
 
-
     double dx = satX - gsX;
     double dy = satY - gsY;
     double dz = satZ - gsZ;
     double distance = std::sqrt(dx*dx + dy*dy + dz*dz);
 
-
-
     double cosAngle = (gsRadius*gsRadius + distance*distance - satRadius*satRadius) /
                       (2 * gsRadius * distance);
 
-
     cosAngle = std::max(-1.0, std::min(1.0, cosAngle));
 
-
     double angle = std::acos(cosAngle) * 180.0 / 
-# 83 "/home/luka_mumladze/CLionProjects/LEO/src/GroundStation.cpp" 3 4
+# 67 "/home/luka_mumladze/Thesis (3)/LEO/src/GroundStation.cpp" 3 4
                                                 3.14159265358979323846
-# 83 "/home/luka_mumladze/CLionProjects/LEO/src/GroundStation.cpp"
+# 67 "/home/luka_mumladze/Thesis (3)/LEO/src/GroundStation.cpp"
                                                     ;
 
-
     double elevation = 90.0 - angle;
-# 95 "/home/luka_mumladze/CLionProjects/LEO/src/GroundStation.cpp"
     return elevation;
 }
 void GroundStation::update(double timeStep) {
@@ -70069,7 +70051,6 @@ void GroundStation::update(double timeStep) {
 double GroundStation:: debugElevation(const Position& satPosition) const {
     return calculateElevation(satPosition);
 }
-
 double GroundStation::getElevationMask() const {
     return elevationMask_;
 }

@@ -1,11 +1,11 @@
-# 0 "/home/luka_mumladze/CLionProjects/LEO/src/OrbitParams.cpp"
-# 1 "/home/luka_mumladze/CLionProjects/LEO/cmake-build-debug//"
+# 0 "/home/luka_mumladze/Thesis (3)/LEO/src/OrbitParams.cpp"
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug//"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/OrbitParams.cpp"
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/orbit_params.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/OrbitParams.cpp"
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/orbit_params.h" 1
 
 
 
@@ -28,7 +28,7 @@ struct OrbitParams {
 
 
 };
-# 2 "/home/luka_mumladze/CLionProjects/LEO/src/OrbitParams.cpp" 2
+# 2 "/home/luka_mumladze/Thesis (3)/LEO/src/OrbitParams.cpp" 2
 # 1 "/usr/include/c++/14.2.0/cmath" 1 3
 # 39 "/usr/include/c++/14.2.0/cmath" 3
        
@@ -25613,9 +25613,9 @@ namespace __gnu_cxx __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 3 "/home/luka_mumladze/CLionProjects/LEO/src/OrbitParams.cpp" 2
+# 3 "/home/luka_mumladze/Thesis (3)/LEO/src/OrbitParams.cpp" 2
 
-# 3 "/home/luka_mumladze/CLionProjects/LEO/src/OrbitParams.cpp"
+# 3 "/home/luka_mumladze/Thesis (3)/LEO/src/OrbitParams.cpp"
 OrbitParams::OrbitParams(double semiMajorAxis,
         double eccentricity,
         double inclination,
@@ -25628,10 +25628,10 @@ OrbitParams::OrbitParams(double semiMajorAxis,
         argumentOfPeriapsis(argumentOfPeriapsis),
         trueAnomaly(trueAnomaly) {
 
-        const double EARTH_MU = 398600.4418;
+        constexpr double EARTH_MU = 398600.4418;
         period = 2.0 * 
-# 16 "/home/luka_mumladze/CLionProjects/LEO/src/OrbitParams.cpp" 3 4
+# 16 "/home/luka_mumladze/Thesis (3)/LEO/src/OrbitParams.cpp" 3 4
                       3.14159265358979323846 
-# 16 "/home/luka_mumladze/CLionProjects/LEO/src/OrbitParams.cpp"
+# 16 "/home/luka_mumladze/Thesis (3)/LEO/src/OrbitParams.cpp"
                            * std::sqrt(std::pow(semiMajorAxis, 3) / EARTH_MU);
 }

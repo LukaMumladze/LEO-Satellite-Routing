@@ -1,7 +1,7 @@
 CMakeFiles/LEO2_0.dir/src/OrbitParams.cpp.o.ddi: \
- /home/luka_mumladze/CLionProjects/LEO/src/OrbitParams.cpp \
+ /home/luka_mumladze/Thesis\ (3)/LEO/src/OrbitParams.cpp \
  /usr/include/stdc-predef.h \
- /home/luka_mumladze/CLionProjects/LEO/src/../include/orbit_params.h \
+ /home/luka_mumladze/Thesis\ (3)/LEO/src/../include/orbit_params.h \
  /usr/include/c++/14.2.0/cmath \
  /usr/include/c++/14.2.0/bits/requires_hosted.h \
  /usr/include/c++/14.2.0/x86_64-unknown-linux-gnu/bits/c++config.h \

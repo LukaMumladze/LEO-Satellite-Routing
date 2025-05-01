@@ -1,7 +1,7 @@
 CMakeFiles/LEO2_0.dir/src/Node.cpp.o.ddi: \
- /home/luka_mumladze/CLionProjects/LEO/src/Node.cpp \
+ /home/luka_mumladze/Thesis\ (3)/LEO/src/Node.cpp \
  /usr/include/stdc-predef.h \
- /home/luka_mumladze/CLionProjects/LEO/src/../include/node.h \
+ /home/luka_mumladze/Thesis\ (3)/LEO/src/../include/node.h \
  /usr/include/c++/14.2.0/memory /usr/include/c++/14.2.0/bits/memoryfwd.h \
  /usr/include/c++/14.2.0/x86_64-unknown-linux-gnu/bits/c++config.h \
  /usr/include/c++/14.2.0/x86_64-unknown-linux-gnu/bits/os_defines.h \
@@ -213,4 +213,4 @@ CMakeFiles/LEO2_0.dir/src/Node.cpp.o.ddi: \
  /usr/include/c++/14.2.0/bits/ranges_algobase.h \
  /usr/include/c++/14.2.0/pstl/glue_memory_defs.h \
  /usr/include/c++/14.2.0/pstl/execution_defs.h \
- /home/luka_mumladze/CLionProjects/LEO/src/../include/position.h
+ /home/luka_mumladze/Thesis\ (3)/LEO/src/../include/position.h

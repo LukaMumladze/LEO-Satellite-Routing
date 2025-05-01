@@ -1,10 +1,10 @@
-# 0 "/home/luka_mumladze/CLionProjects/LEO/src/StoreAndForwardRouting.cpp"
-# 1 "/home/luka_mumladze/CLionProjects/LEO/cmake-build-debug//"
+# 0 "/home/luka_mumladze/Thesis (3)/LEO/src/StoreAndForwardRouting.cpp"
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/cmake-build-debug//"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/StoreAndForwardRouting.cpp"
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/StoreAndForwardRouting.cpp"
 # 1 "/usr/include/c++/14.2.0/algorithm" 1 3
 # 58 "/usr/include/c++/14.2.0/algorithm" 3
        
@@ -28360,20 +28360,20 @@ lexicographical_compare(_ExecutionPolicy&& __exec, _ForwardIterator1 __first1, _
 
 }
 # 86 "/usr/include/c++/14.2.0/algorithm" 2 3
-# 2 "/home/luka_mumladze/CLionProjects/LEO/src/StoreAndForwardRouting.cpp" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/store_and_forward_routing.h" 1
+# 2 "/home/luka_mumladze/Thesis (3)/LEO/src/StoreAndForwardRouting.cpp" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/store_and_forward_routing.h" 1
 
 
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h" 1
 
 
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/packet.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/packet.h" 1
 
 
 
 
 
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/packet.h"
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/packet.h"
 class Packet {
 public:
     Packet(int id, int sourceId, int destinationId, double creationTime, int size = 1);
@@ -28393,8 +28393,8 @@ private:
     int size;
     int hopCount;
 };
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/node.h" 1
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/node.h" 1
 
 
 # 1 "/usr/include/c++/14.2.0/memory" 1 3
@@ -63449,13 +63449,13 @@ uninitialized_value_construct_n(_ExecutionPolicy&& __exec, _ForwardIterator __fi
 
 }
 # 172 "/usr/include/c++/14.2.0/memory" 2 3
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/node.h" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/position.h" 1
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/node.h" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/position.h" 1
 
 
 
 
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/position.h"
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/position.h"
 struct Position {
     double x;
     double y;
@@ -63465,7 +63465,7 @@ struct Position {
     Position(double x, double y, double z);
     [[nodiscard]] double distanceTo(const Position &other) const;
 };
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/node.h" 2
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/node.h" 2
 class Node {
 public:
     Node(int id, const Position& pos);
@@ -63486,7 +63486,7 @@ protected:
     Position position_;
     double elapsedTime = 0.0;
 };
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h" 2
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h" 2
 # 1 "/usr/include/c++/14.2.0/vector" 1 3
 # 58 "/usr/include/c++/14.2.0/vector" 3
        
@@ -67443,11 +67443,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 }
-# 6 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h" 2
+# 6 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h" 2
 
 
 
-# 8 "/home/luka_mumladze/CLionProjects/LEO/src/../include/routing_algorithm.h"
+# 8 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/routing_algorithm.h"
 class RoutingAlgorithm {
 public:
     virtual ~RoutingAlgorithm() = default;
@@ -67458,7 +67458,7 @@ public:
          const std::vector<std::shared_ptr<Node>>& allNodes) = 0;
     [[nodiscard]] virtual std::string getName() const = 0;
 };
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/../include/store_and_forward_routing.h" 2
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/store_and_forward_routing.h" 2
 # 1 "/usr/include/c++/14.2.0/map" 1 3
 # 58 "/usr/include/c++/14.2.0/map" 3
        
@@ -71920,7 +71920,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 }
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/store_and_forward_routing.h" 2
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/store_and_forward_routing.h" 2
 # 1 "/usr/include/c++/14.2.0/set" 1 3
 # 58 "/usr/include/c++/14.2.0/set" 3
        
@@ -73132,10 +73132,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 }
-# 6 "/home/luka_mumladze/CLionProjects/LEO/src/../include/store_and_forward_routing.h" 2
+# 6 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/store_and_forward_routing.h" 2
 
 
-# 7 "/home/luka_mumladze/CLionProjects/LEO/src/../include/store_and_forward_routing.h"
+# 7 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/store_and_forward_routing.h"
 class StoreAndForwardRouting : public RoutingAlgorithm {
 public:
     std::shared_ptr<Node> findNextHop(const Packet& packet, const std::shared_ptr<Node>& currentNode,
@@ -73144,16 +73144,17 @@ public:
     [[nodiscard]] std::string getName() const override;
     void clearHistory(int packetId);
     void printRoutingStats() const;
+    static void clearStats();
 private:
     std::map<int, std::set<int>> packetHistory;
     std::map<int, std::set<int>> visitedNodes;
 };
-# 3 "/home/luka_mumladze/CLionProjects/LEO/src/StoreAndForwardRouting.cpp" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/satellite.h" 1
+# 3 "/home/luka_mumladze/Thesis (3)/LEO/src/StoreAndForwardRouting.cpp" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/satellite.h" 1
 
 
 
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/orbit_params.h" 1
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/orbit_params.h" 1
 
 
 
@@ -73176,7 +73177,7 @@ struct OrbitParams {
 
 
 };
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/../include/satellite.h" 2
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/satellite.h" 2
 
 
 class Satellite: public Node {
@@ -73199,8 +73200,8 @@ private:
 
     void updatePosition();
 };
-# 4 "/home/luka_mumladze/CLionProjects/LEO/src/StoreAndForwardRouting.cpp" 2
-# 1 "/home/luka_mumladze/CLionProjects/LEO/src/../include/ground_station.h" 1
+# 4 "/home/luka_mumladze/Thesis (3)/LEO/src/StoreAndForwardRouting.cpp" 2
+# 1 "/home/luka_mumladze/Thesis (3)/LEO/src/../include/ground_station.h" 1
 
 
 
@@ -73212,15 +73213,15 @@ public:
     [[nodiscard]] bool canCommunicateWith(const std::shared_ptr<Node>& other) const override;
 
     void update(double timeStep) override;
-    [[nodiscard]] double debugElevation(const Position& satPosition) const;
     [[nodiscard]] double getElevationMask() const;
     [[nodiscard]] double getElapsedTime() const override;
+    [[nodiscard]] double debugElevation(const Position& satPosition) const;
 
 private:
     double elevationMask_;
     [[nodiscard]] double calculateElevation(const Position& satPosition) const;
 };
-# 5 "/home/luka_mumladze/CLionProjects/LEO/src/StoreAndForwardRouting.cpp" 2
+# 5 "/home/luka_mumladze/Thesis (3)/LEO/src/StoreAndForwardRouting.cpp" 2
 # 1 "/usr/include/c++/14.2.0/limits" 1 3
 # 40 "/usr/include/c++/14.2.0/limits" 3
        
@@ -74862,7 +74863,7 @@ __extension__ template<> struct numeric_limits<_Float128> { static constexpr boo
 
 
 }
-# 6 "/home/luka_mumladze/CLionProjects/LEO/src/StoreAndForwardRouting.cpp" 2
+# 6 "/home/luka_mumladze/Thesis (3)/LEO/src/StoreAndForwardRouting.cpp" 2
 # 1 "/usr/include/c++/14.2.0/random" 1 3
 # 32 "/usr/include/c++/14.2.0/random" 3
        
@@ -92601,7 +92602,7 @@ namespace __detail
 
 }
 # 51 "/usr/include/c++/14.2.0/random" 2 3
-# 7 "/home/luka_mumladze/CLionProjects/LEO/src/StoreAndForwardRouting.cpp" 2
+# 7 "/home/luka_mumladze/Thesis (3)/LEO/src/StoreAndForwardRouting.cpp" 2
 
 
 # 1 "/usr/include/c++/14.2.0/iostream" 1 3
@@ -94189,12 +94190,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 10 "/home/luka_mumladze/CLionProjects/LEO/src/StoreAndForwardRouting.cpp" 2
+# 10 "/home/luka_mumladze/Thesis (3)/LEO/src/StoreAndForwardRouting.cpp" 2
 
 
-
-# 12 "/home/luka_mumladze/CLionProjects/LEO/src/StoreAndForwardRouting.cpp"
-constexpr int ABSOLUTE_MAX_HOPS = 8;
+# 11 "/home/luka_mumladze/Thesis (3)/LEO/src/StoreAndForwardRouting.cpp"
+constexpr int ABSOLUTE_MAX_HOPS = 20;
 
 
 static int totalRoutingDecisions = 0;
@@ -94346,4 +94346,13 @@ void StoreAndForwardRouting::printRoutingStats() const {
 
 void StoreAndForwardRouting::clearHistory(int packetId) {
     visitedNodes.erase(packetId);
+}
+
+void StoreAndForwardRouting::clearStats() {
+    totalRoutingDecisions = 0;
+    directDeliveries = 0;
+    progressiveHops = 0;
+    riskTakingHops = 0;
+    waitDecisions = 0;
+    droppedPackets = 0;
 }
