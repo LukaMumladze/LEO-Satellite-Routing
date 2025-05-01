@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.31)
-project(LEO2_0)
+project(LEO-Satellite-Routing)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(LEO2_0 main.cpp
+add_executable(LEO-Satellite-Routing main.cpp
         include/position.h
         src/Position.cpp
         include/orbit_params.h
